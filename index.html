@@ -5,10 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lions Club Adventskalender 2020</title>
-  <script src="https://unpkg.com/vue@next"></script>
+  <script src="https://unpkg.com/vue"></script>
+  <!-- <script src="https://unpkg.com/vue@next"></script> -->
+  <link href="https://unpkg.com/primevue/resources/themes/saga-blue/theme.css " rel="stylesheet">
+  <link href="https://unpkg.com/primevue/resources/primevue.min.css " rel="stylesheet">
+  <link href="https://unpkg.com/primeicons/primeicons.css" rel="stylesheet">
+  <script src="https://unpkg.com/primevue/components/calendar/calendar.umd.min.js"></script>
+  <script src="https://unpkg.com/primevue/components/button/button.umd.min.js"></script>
+  <script src="https://unpkg.com/primevue/components/dialog/dialog.umd.min.js"></script>
   <style>
     body {
-      background-image: url("img/debby-hudson-QdQEtkscDi8-unsplash.jpg");
+      background-image: url("img/oana-craciun-9tzf7-N5eyE-unsplash.jpg");
       background-position: center;
       display: flex;
       justify-content: center;
@@ -24,10 +31,11 @@
       grid-column-gap: 50px;
       grid-row-gap: 50px;
       max-width: 44rem;
-      
+
     }
+
     .wrapper__door {
-      background-color: rgba(1.0,1.0,1.0,.6);
+      background-color: rgba(1.0, 1.0, 1.0, .6);
       width: 100px;
       height: 100px;
       border: 1px solid black;
@@ -38,22 +46,80 @@
       font-family: 'Courier New', Courier, monospace;
       color: white;
     }
+
+    .flex-center {
+      display: flex;
+      justify-content: center;
+    }
+
+    /* overrides */
+    .p-button:enabled:hover, .p-button:enabled:focus {
+      background: white;
+      color: black;
+      border-color: rgb(255, 196, 0);
+    }
+
+    .p-dialog {
+      width: 800px;
+    }
   </style>
 </head>
 
 <body>
   <div id="wrapper">
-    <a class="wrapper__link" v-for='door in doors' href="#" v-on:click="increaseConter">
-      <span class="wrapper__door">{{door.number}}</span>
+    <a class="wrapper__link" v-for='door in doors' href="#">
+      <!-- <span class="wrapper__door">{{door.number}}</span> -->
+      <p-button class="wrapper__door" v-bind:label="door.number" v-on:click="openImage(getRandomImage())">
+      </p-button>
     </a>
+    <p-dialog v-bind:header="currentNumber" :visible.sync="displayImage" :modal="true" :maximizable="true" :dismissableMask="true">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.</p>
+        <div class="flex-center">
+          <img width="100%" v-bind:src="displayUrl" />
+        </div>
+    </p-dialog>
   </div>
-
 
   <script>
     const doors = [];
     for (let i = 0; i < 24; i++) {
-      doors.push({number: i+1, imageUrl: ''});
+      doors.push({ number: '' + (i + 1), imageUrl: `img/doors/${i + 1}.jpg` });
     }
+    const myApp = new Vue({
+      data() {
+        return {
+          doors,
+          displayImage: false,
+          displayUrl: null,
+          currentNumber: null
+        }
+      },
+      methods: {
+        openImage: function (number) {
+          console.log(`open ${number}, pressed and visible: ${this.displayImage}`);
+          this.displayUrl = number;
+          this.displayImage = true;
+        },
+
+        getRandomImage: function () {
+          const max = 11;
+          this.currentNumber = (Math.floor(Math.random() * Math.floor(max)) + 1);
+          return 'img/doors/' + this.currentNumber + '.jpg';
+        }
+      },
+      components: {
+        'p-calendar': calendar,
+        'p-dialog': dialog,
+        'p-button': button
+      }
+    });
+    myApp.$mount('#wrapper');
+    Vue.prototype.$primevue = { ripple: true };
+  </script>
+
+  <!--   <script>
+
     const Adventskalender = {
       data() {
         return {
@@ -64,11 +130,15 @@
         increaseConter() {
           this.counter++;
         }
+      },
+      components: {
+        'p-calendar': calendar
       }
     }
-
-    Vue.createApp(Adventskalender).mount('#wrapper')
-  </script>
+    const myApp = Vue.createApp(Adventskalender);
+    myApp.mount('#wrapper');
+    myApp.config.globalProperties.$primevue = {ripple: true};
+  </script> -->
 </body>
 
 </html>
