@@ -16,8 +16,9 @@
   <script src="https://unpkg.com/primevue/components/dialog/dialog.umd.min.js"></script>
   <style>
     body {
-      background-image: url("img/oana-craciun-9tzf7-N5eyE-unsplash.jpg");
+      background-image: url("img/2020_aquarell.jpg");
       background-position: center;
+      background-repeat: no-repeat;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -39,25 +40,27 @@
       width: 100px;
       height: 100px;
       position: relative;
-      box-shadow: 2px 2px rgb(1.0, 1.0, 1.0);
+      /* box-shadow: 2px 2px rgb(1.0, 1.0, 1.0); */
       cursor: pointer;
     }
 
     .door-container__front {
-      color: black;
-      background: rgba(255, 255, 255, 1.0);
+      color: white;
+      background-image: url('img/2020_aquarell.jpg');
+      background-repeat: no-repeat;
       width: 100%;
       height: 100%;
-      border: 1px solid black;
+      /* border: 1px solid black; */
       display: block;
       text-align: center;
       line-height: 100px;
-      font-size: 2.3rem;
+      font-size: 2.7rem;
       font-family: 'Courier New', Courier, monospace;
+      text-shadow: 2px 2px 3px #000000;
       padding: 0;
       transform-origin: left;
       transition: all 0.5s ease-in-out;
-      transform: perspective(1200px) translateZ(-5px);
+      transform: perspective(1200px) translateZ(-2px);
     }
 
     .door-container__back {
@@ -68,7 +71,7 @@
       width: 100%;
       height: 100%;
       border: 0;
-      transform: perspective(1200px) translateZ(5px);
+      transform: perspective(1200px) translateZ(2px);
       background-image: url('img/doors/3.jpg');
     }
 
@@ -77,9 +80,8 @@
       transform: rotateY(-110deg);
     }
 
-    .open-door {
-      width: 100%;
-      height: 100%;
+    .open {
+      transform: rotateY(-110deg);
     }
 
     .flex-center {
@@ -123,11 +125,8 @@
 <body>
   <div id="wrapper">
     <div class="door-container" v-for='door in doors' v-on:click="openImage(getRandomImage())">
-      <template v-if="door.number > 4">
         <div class="door-container__back"></div>
-        <div class="door-container__front">{{door.number}}</div>
-      </template>
-    <div class="open-door" v-else v-bind:style="{ backgroundImage: 'url(img/doors/' + door.number + '.jpg)' }"></div>
+        <div v-bind:class="(door.number < 5 ? 'open ' : '') + 'door-container__front'" v-bind:style="'background-position: ' + (door.col * -150 - 25) + 'px ' + (door.row * -150 - 100) + 'px'">{{door.number}}</div>
     </div>
     <p-dialog v-bind:header="currentNumber" :visible.sync="displayImage" :modal="true" :maximizable="true"
       :dismissableMask="true">
@@ -166,7 +165,7 @@
 <script>
   const doors = [];
   for (let i = 0; i < 24; i++) {
-    doors.push({ number: '' + (i + 1), imageUrl: `img/doors/${i + 1}.jpg` });
+    doors.push({ row: Math.floor(i/5), col: i%5, number: '' + (i + 1), imageUrl: `img/doors/${i + 1}.jpg` });
   }
   const myApp = new Vue({
     data() {
