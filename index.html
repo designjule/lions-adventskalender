@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lions Club Adventskalender 2020</title>
-  <!-- <script src="https://unpkg.com/vue"></script> -->
-  <script src="https://unpkg.com/vue@2.6.12/dist/vue.min.js"></script>
-  <link href="https://unpkg.com/primevue@2.1.0/resources/themes/saga-blue/theme.css " rel="stylesheet">
-  <link href="https://unpkg.com/primevue@2.1.0/resources/primevue.min.css " rel="stylesheet">
-  <link href="https://unpkg.com/primeicons@4.0.0/primeicons.css" rel="stylesheet">
+  <script src="js/vue@2.6.12/dist/vue.js"></script>
+  <link href="css/primevue@2.1.0/resources/themes/saga-blue/theme.css " rel="stylesheet">
+  <link href="js/primevue@2.1.0/resources/primevue.min.css " rel="stylesheet">
+  <link href="css/primeicons@4.0.0/primeicons.css" rel="stylesheet">
   <link href="css/snow.css" rel="stylesheet">
-  <script src="https://unpkg.com/primevue@2.1.0/components/button/button.umd.min.js"></script>
-  <script src="https://unpkg.com/primevue@2.1.0/components/dialog/dialog.umd.js"></script>
+  <script src="js/primevue@2.1.0/components/button/button.umd.min.js"></script>
+  <script src="js/primevue@2.1.0/components/dialog/dialog.umd.min.js"></script>
+  <script src="js/primevue@2.1.0/components/carousel/carousel.umd.min.js"></script>
   <style>
     body {
       background-image: url("img/2020_aquarell.jpg");
@@ -123,22 +123,29 @@
 
 <body>
   <div id="wrapper">
-    <div class="door-container" v-for='door in doors' v-on:click="openImage(getRandomImage())">
-        <div class="door-container__back"></div>
-        <div v-bind:class="(door.number < 5 ? 'open ' : '') + 'door-container__front'" v-bind:style="'background-position: ' + (door.col * -150 - 25) + 'px ' + (door.row * -150 - 100) + 'px'">{{door.number}}</div>
+    <div class="door-container" v-for='door in doors' v-on:click="openDoor(door)">
+      <div class="door-container__back" v-bind:style="'background-image: url(img/doors/'+ door.number +'.jpg)'"></div>
+      <div v-bind:class="'door-container__front'"
+        v-bind:style="'background-position: ' + (door.col * -150 - 25) + 'px ' + (door.row * -150 - 100) + 'px'">
+        {{door.number}}</div>
     </div>
-    <p-dialog v-bind:header="currentNumber" :visible.sync="displayImage" :modal="true" :maximizable="true"
-      :dismissableMask="true">
+    <p-dialog v-bind:header="currentDoor.number" :visible.sync="displayImage" :modal="true" :maximizable="true"
+      :dismissable-mask="true">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua.</p>
       <div class="flex-center">
-        <img width="100%" v-bind:src="displayUrl" />
+        <!-- <img width="100%" v-bind:src="currentDoor.imageUrls[0]" /> -->
+        <p-carousel v-bind:value="currentDoor.imageUrls" v-bind:num-visible="1" v-bind:num-scroll="1" v-bind:circular="true" v-bind:autoplay-interval="3000">
+          <template #item="image">
+            <img width="100%" v-bind:src="image.data" />
+          </template>
+        </p-carousel>
       </div>
     </p-dialog>
     <footer>
-      <p-button label="Datenschutz" v-on:click="openImage(getRandomImage())" class="p-button-link footer__button">
+      <p-button label="Datenschutz" v-on:click="openDoor(getRandomImage())" class="p-button-link footer__button">
       </p-button>
-      <p-button label="Impressum" v-on:click="openImage(getRandomImage())" class="p-button-link footer__button">
+      <p-button label="Impressum" v-on:click="openDoor(getRandomImage())" class="p-button-link footer__button">
       </p-button>
     </footer>
   </div>
@@ -162,35 +169,62 @@
   </div>
 </body>
 <script>
-  const doors = [];
-  for (let i = 0; i < 24; i++) {
-    doors.push({ row: Math.floor(i/5), col: i%5, number: '' + (i + 1), imageUrl: `img/doors/${i + 1}.jpg` });
-  }
+  const doors = [
+    { row: 0, col: 0, number: '23', imageUrls: [`img/doors/23.jpg`] },
+    { row: 0, col: 1, number: '13', imageUrls: [`img/doors/13.jpg`] },
+    { row: 0, col: 2, number: '3', imageUrls: [`img/doors/3.jpg`,`img/doors/3.jpg`,`img/doors/3.jpg`] },
+    { row: 0, col: 3, number: '22', imageUrls: [`img/doors/22.jpg`] },
+    { row: 0, col: 4, number: '9', imageUrls: [`img/doors/9.jpg`] },
+    { row: 1, col: 0, number: '12', imageUrls: [`img/doors/12.jpg`] },
+    { row: 1, col: 1, number: '16', imageUrls: [`img/doors/16.jpg`] },
+    { row: 1, col: 2, number: '7', imageUrls: [`img/doors/7.jpg`] },
+    { row: 1, col: 3, number: '11', imageUrls: [`img/doors/11.jpg`] },
+    { row: 1, col: 4, number: '1', imageUrls: [`img/doors/1.jpg`] },
+    { row: 2, col: 0, number: '10', imageUrls: [`img/doors/10.jpg`] },
+    { row: 2, col: 1, number: '2', imageUrls: [`img/doors/2.jpg`] },
+    { row: 2, col: 2, number: '4', imageUrls: [`img/doors/4.jpg`] },
+    { row: 2, col: 3, number: '15', imageUrls: [`img/doors/15.jpg`] },
+    { row: 2, col: 4, number: '14', imageUrls: [`img/doors/14.jpg`] },
+    { row: 3, col: 0, number: '6', imageUrls: [`img/doors/6.jpg`] },
+    { row: 3, col: 1, number: '18', imageUrls: [`img/doors/18.jpg`] },
+    { row: 3, col: 2, number: '5', imageUrls: [`img/doors/5.jpg`] },
+    { row: 3, col: 3, number: '19', imageUrls: [`img/doors/19.jpg`] },
+    { row: 3, col: 4, number: '20', imageUrls: [`img/doors/20.jpg`] },
+    { row: 4, col: 0, number: '8', imageUrls: [`img/doors/8.jpg`] },
+    { row: 4, col: 1, number: '21', imageUrls: [`img/doors/21.jpg`] },
+    { row: 4, col: 2, number: '24', imageUrls: [`img/doors/24.jpg`] },
+    { row: 4, col: 3, number: '17', imageUrls: [`img/doors/17.jpg`] },
+  ];
+
+  /*   for (let i = 0; i < 24; i++) {
+      doors.push({ row: Math.floor(i / 5), col: i % 5, number: '' + (i + 1), imageUrl: `img/doors/${i + 1}.jpg` });
+    } */
   const myApp = new Vue({
     data() {
       return {
         doors,
         displayImage: false,
         displayUrl: null,
-        currentNumber: null
+        currentDoor: doors[0]
       }
     },
     methods: {
-      openImage: function (number) {
-        console.log(`open ${number}, pressed and visible: ${this.displayImage}`);
-        this.displayUrl = number;
+      openDoor: function (door) {
+        console.log(`open ${door.number}, pressed and visible: ${this.displayImage}`);
+        this.currentDoor = door;
         this.displayImage = true;
       },
 
-      getRandomImage: function () {
-        const max = 11;
-        this.currentNumber = (Math.floor(Math.random() * Math.floor(max)) + 1);
-        return 'img/doors/' + this.currentNumber + '.jpg';
-      }
+      /*       getRandomImage: function () {
+              const max = 11;
+              this.currentNumber = (Math.floor(Math.random() * Math.floor(max)) + 1);
+              return 'img/doors/' + this.currentNumber + '.jpg';
+            } */
     },
     components: {
       'p-dialog': dialog,
-      'p-button': button
+      'p-button': button,
+      'p-carousel': carousel
     }
   });
   myApp.$mount('#wrapper');
