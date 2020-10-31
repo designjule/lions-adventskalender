@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lions Club Johannes Kepler - Adventskalender 2020</title>
-  <script src="js/vue@2.6.12/dist/vue.js"></script>
+  <script src="js/vue@2.6.12/dist/vue.min.js"></script>
   <link href="css/primevue@2.1.0/resources/themes/saga-blue/theme.css " rel="stylesheet">
   <link href="js/primevue@2.1.0/resources/primevue.min.css " rel="stylesheet">
   <link href="css/primeicons@4.0.0/primeicons.css" rel="stylesheet">
@@ -172,30 +172,30 @@
 </body>
 <script>
   const doors = [
-    { row: 0, col: 0, text: '', number: '23', title: '', imageUrls: [`img/01_Tischkicker.JPG`] },
-    { row: 0, col: 1, text: '', number: '13', title: '', imageUrls: [`img/doors/13.jpg`] },
+    { row: 0, col: 0, text: '', number: '23', title: '', imageUrls: [`img/doors/01_Tischkicker.JPG`] },
+    { row: 0, col: 1, text: '', number: '13', title: '', imageUrls: [`img/doors/01_Tischkicker.JPG`] },
     { row: 0, col: 2, number: '3', title: 'Diakonie Leonberg', imageUrls: [`img/doors/03_Diakonie.jpg`], text: 'In Leonberg, im Haus der Diakonie<br />Ist man bemüht um Harmonie<br />Man weiß um das Leid von einzelnen Menschen<br />In Mitten unseres Wohlstandes mit all seinen Glänzen<br />Die Diakonie hat als oberstes Gebot<br />Das Ziel zu Lindern, die größte Not<br />Der LCJK unterstützt hier gerne<br />Und hilft so für mehr soziale Wärme' },
-    { row: 0, col: 3, text: '', number: '22', title: '', imageUrls: [`img/doors/22.jpg`] },
+    { row: 0, col: 3, text: '', number: '22', title: '', imageUrls: [`img/doors/01_Tischkicker.JPG`] },
     { row: 0, col: 4, number: '9', title: 'Musikvideo Italien', imageUrls: [`img/doors/09_Musikvideo_Italien.jpg`], text: 'Musik, die internationale Sprache der Gemeinschaft<br />Wo sie spielt, sagt der Volksmund, da ist die Eintracht<br /><br />Ein Musikvideo der Klasse 8 an der Heinrich-Steinhöwel-Schule war der Beginn<br />Am Ende fuhren die Kinder zur Endrunde nach Italien<br /><br />Unterstützt vom LCJK war das Projekt der Schule ein tolles Ergebnis<br />Und für die Schüler ein sehr bewegendes Erlebnis' },
-    { row: 1, col: 0, text: '', number: '12', title: '', imageUrls: [`img/doors/12.jpg`] },
-    { row: 1, col: 1, text: '', number: '16', title: '', imageUrls: [`img/doors/16.jpg`] },
+    { row: 1, col: 0, text: '', number: '12', title: '', imageUrls: [`img/doors/01_Tischkicker.JPG`] },
+    { row: 1, col: 1, text: '', number: '16', title: '', imageUrls: [`img/doors/01_Tischkicker.JPG`] },
     { row: 1, col: 2, number: '7', title: 'Forum Zukunft 2018', imageUrls: ['img/doors/07_Forum_Zukunft_2018_1.JPG', 'img/doors/07_Forum_Zukunft_2018_2.JPG', 'img/doors/07_Forum_Zukunft_2018_3.JPG'], text: 'Dr. Hans-Jürgen Rülke referierte beim LCJK Forum Zukunft 2018 zum Thema "Die Zukunft Baden-Württembergs im Zeitalter der Digitalisierung". Der Vorsitzende der FDP-Landtagsfraktion forderte, dass für die Digitalisierung ein schneller und funktionierender Breitbandausbau bereitgestellt wird. Hier sei der Staat gefragt, wenn der Markt nicht funktioniere. Damit dies gelinge, sei ein Digitalisierungsministerium erforderlich.' },
-    { row: 1, col: 3, text: '', number: '11', title: '', imageUrls: [`img/doors/11.jpg`] },
+    { row: 1, col: 3, text: '', number: '11', title: '', imageUrls: [`img/doors/01_Tischkicker.JPG`] },
     { row: 1, col: 4, number: '1', title: 'Tischkicker', imageUrls: [`img/doors/01_Tischkicker.JPG`], text: `In der Würmtalschule<br />Da liegen die Kinder nicht im Klappstuhle<br />Und sie machen auch nicht nur auf dem Handy geklicker<br />Denn sie haben seit 2019 vom LCJK einen coolen Tischkicker` },
-    { row: 2, col: 0, text: '', number: '10', title: '', imageUrls: [`img/doors/10.jpg`] },
+    { row: 2, col: 0, text: '', number: '10', title: '', imageUrls: [`img/doors/01_Tischkicker.JPG`] },
     { row: 2, col: 1, number: '2', title: 'Mosaik', imageUrls: [`img/doors/02_Mosaik.jpg`], text: 'Johannes Kepler mit seinem Wissen zur Astronomie<br />Inspiriert auch heute noch Kinder, was für ein Genie<br />Ein Mosaik am Brunnen, mit Sonne, Mond und Sterne<br />Und den Tierkreiszeichen aus weiter Ferne<br />Gestaltet und erbaut von einer Gemeinschaft der Kinder<br />Unterstützt vom LCJK als großzügiger Spender' },
     { row: 2, col: 2, number: '4', title: 'Tombolagarage', imageUrls: [`img/doors/04_Tombolagarge.jpg`], text: 'Viel zu tun gabs hier für alle Hände<br />Groß war die Zahl der Dinge die kamen als Spende<br />Im Querpass in Holzgerlingen gewann jedes Los<br />Das kam gut an und die Einnahmen waren recht groß<br />Die Gelder gehen weiter und kommen zugute den Kindern der Region<br />Mithilfe der LCJK Organisation' },
-    { row: 2, col: 3, text: '', number: '15', title: '', imageUrls: [`img/doors/15.jpg`] },
-    { row: 2, col: 4, text: '', number: '14', title: '', imageUrls: [`img/doors/14.jpg`] },
+    { row: 2, col: 3, text: '', number: '15', title: '', imageUrls: [`img/doors/01_Tischkicker.JPG`] },
+    { row: 2, col: 4, text: '', number: '14', title: '', imageUrls: [`img/doors/01_Tischkicker.JPG`] },
     { row: 3, col: 0, number: '6', title: 'Forum Zukunft 2017', imageUrls: [`img/doors/06_Forum_Zukunft_2017_1.JPG`, `img/doors/06_Forum_Zukunft_2017_2.JPG`, `img/doors/06_Forum_Zukunft_2017_3.JPG`, `img/doors/06_Forum_Zukunft_2017_4.JPG`], text: 'In einer sehr engagierten Rede stellte Alexander Graf Lambsdorff bei unserem Forum Zukunft 2017 seine Vision zur Zukunft Europas vor. Unter dem Titel "Wie geht es weiter nach Brexit, Trump & Co?" gab der Vizepräsident des Europäischen Parlaments einen fundierten Überblick über die Herausforderungen und Krisenherde in Europa. Besonders wichtig war es dem Referenten, die junge Generation für Europa zu begeistern.' },
-    { row: 3, col: 1, text: '', number: '18', title: '', imageUrls: [`img/doors/18.jpg`] },
+    { row: 3, col: 1, text: '', number: '18', title: '', imageUrls: [`img/doors/01_Tischkicker.JPG`] },
     { row: 3, col: 2, number: '5', title: 'Forum Zukunft allgemein', imageUrls: ['img/doors/05_Forum_allgemein_1.JPG', 'img/doors/05_Forum_allgemein_2.JPG'], text: 'Das Forum Zukunft ist der jährliche Mittelpunkt<br />Gehalten im Klösterle, schlicht und ohne viel Prunk<br /><br />Die Themen sind es, die die Menschen begeistern<br />Vorgetragen von Experten, den thematischen Großmeistern<br /><br />Im kleinen Raum kommt man sich auch persönlich sehr nah<br />Und hat Zeit für den Austausch von Gedanken, ganz wunderbar<br />' },
-    { row: 3, col: 3, text: '', number: '19', title: '', imageUrls: [`img/doors/19.jpg`] },
-    { row: 3, col: 4, text: '', number: '20', title: '', imageUrls: [`img/doors/20.jpg`] },
+    { row: 3, col: 3, text: '', number: '19', title: '', imageUrls: [`img/doors/01_Tischkicker.JPG`] },
+    { row: 3, col: 4, text: '', number: '20', title: '', imageUrls: [`img/doors/01_Tischkicker.JPG`] },
     { row: 4, col: 0, number: '8', title: 'Forum Zukunft 2019', imageUrls: ['img/doors/08_Forum_Zukunft_2019_1.JPG', 'img/doors/08_Forum_Zukunft_2019_2.JPG', 'img/doors/08_Forum_Zukunft_2019_3.JPG', 'img/doors/08_Forum_Zukunft_2019_4.JPG'], text: 'Frau Dr. Saskia Biskup stellte in einem mitreißenden Vortrag beim LCJK Forum Zukunft 2019 das Thema "Krebs in 2030 - Visionen einer Ärztin und Unternehmerin" vor.<br />Die Fachärztin für Humangenetik und Geschäftsführerin des Bio-Tech-Unternehmens CeGaT GmbH ist zuversichtlich, dass die Medizin mit individuell zugeschnittenen Medikamenten manche Krebsformen immer besser in den Griff bekommen kann. Sie entwickelte die Vision, dass dank moderner Gentechnik über die Diagnostik und Therapie zukünftig viele Krebspatienten ein weitgehend beschwerdefreies Leben führen können.' },
-    { row: 4, col: 1, text: '', number: '21', title: '', imageUrls: [`img/doors/21.jpg`] },
-    { row: 4, col: 2, text: '', number: '24', title: '', imageUrls: [`img/doors/24.jpg`] },
-    { row: 4, col: 3, text: '', number: '17', title: '', imageUrls: [`img/doors/17.jpg`] },
+    { row: 4, col: 1, text: '', number: '21', title: '', imageUrls: [`img/doors/01_Tischkicker.JPG`] },
+    { row: 4, col: 2, text: '', number: '24', title: '', imageUrls: [`img/doors/01_Tischkicker.JPG`] },
+    { row: 4, col: 3, text: '', number: '17', title: '', imageUrls: [`img/doors/01_Tischkicker.JPG`] },
   ];
 
   /*   for (let i = 0; i < 24; i++) {
