@@ -1,0 +1,73 @@
+const doors = [
+  { row: 0, col: 0, number: '23', title: 'Frohe Weihnachten vom LCJK', imageUrls: ['img/doors/23_Gruppenfoto_Weichnachtsfeier.jpg', 'img/doors/23_alle_selfies.png'], textAlign: 'center', text: 'Die Zukunft hängt davon ab was wir heute tun“ (Mahatma Gandhi)<br /><br />Ein friedliches Weihnachtsfest,<br />Zeit zur Entspannung und Besinnung auf die wirklich wichtigen Dinge<br />Und alles Gute für das kommende Jahr<br /><br />Wünscht Ihnen der<br />Lions-Club Johannes Kepler<br />Lions Förderverein Johannes Kepler e.V.<br />Weil der Stadt – Sindelfingen' },
+  { row: 0, col: 1, number: '13', title: 'Neue Hängematte für das Kinderhaus', imageUrls: [`img/doors/13_Hängematte.jpg`], text: 'Seit kurzem dürfen sich die Kindergartenkinder des Kinderhauses an der Kirchenburg in Merklingen über ein neues Außenspielgerät freuen: eine Hängematte.<br /><br />Bereits im vergangenen Jahr überlegten sich das Kindergartenteam und der Elternbeirat, wie der Garten des Kinderhauses attraktiver für die Kinder gestaltet werden kann. Da es bereits eine Hängematte im Kinderhaus gibt, die sehr gut genutzt wird, entstand die Idee ein Anbauelement anzuschaffen. Der Elternbeirat machte sich auf die Suche nach Spender und Sponsoren.<br /><br />Dank der Spenden der Firmen Vibratec und Sommer-Eisele sowie des Lions Fördervereins Johannes Kepler konnte das Hängemattenanbauelement finanziert und rechtzeitig vor den Sommerferien aufgebaut werden. Bei der offiziellen Übergabe dankten Amtsleiterin Tanja Kübler, Kita-Leitung Sonja Paech und Elternbeiratsvorsitzende Cessilia Kreyer den Spendern, vertreten durch Ute Borger und Dr. Margarete Steinhart, sehr herzlich für die finanzielle Unterstützung.<br />Die Kindergartenkinder haben die neue Hängematte bereits eingeweiht und nutzen sie ganz begeistert.' },
+  { row: 0, col: 2, number: '3', title: 'Diakonie Leonberg', imageUrls: [`img/doors/03_Diakonie.jpg`], textAlign: 'center', text: 'In Leonberg, im Haus der Diakonie<br />Ist man bemüht um Harmonie<br />Man weiß um das Leid von einzelnen Menschen<br />In Mitten unseres Wohlstandes mit all seinen Glänzen<br />Die Diakonie hat als oberstes Gebot<br />Das Ziel zu Lindern, die größte Not<br />Der LCJK unterstützt hier gerne<br />Und hilft so für mehr soziale Wärme' },
+  { row: 0, col: 3, number: '22', title: 'Nachtwächterführung Weil der Stadt', imageUrls: ['img/doors/22_Nachtwächter.jpg'], textAlign: 'center', text: 'Der Nachtwächter ist nachts ganz allein,<br />doch einsam wird er niemals sein.<br /><br />Mond und Sterne begleiten seinen Weg,<br />überall hin, wo eine Laterne steht.<br /><br />So macht er den Menschen Licht,<br />damit sich ein Spät-Heimkehrer<br />nicht die Beine bricht.<br /><br />Niemand möchte mit ihm tauschen,<br />nachts noch durch die Straßen laufen.<br /><br />Doch er zündet an gerne,<br />jede Laterne.<br /><br />Schläft bei Tag wo alles wacht,<br />das geschlafen hat bei Nacht.<br /><br />Leider ist er ein auslaufendes<br />Model,dieser muntere Gesell.<br /><br />Fast alles wurd durch Elektrik<br />oder Gas ersetzt,<br />Lampen gehen alleine an jetzt.<br /><br />Der Nachtwächter hat ausgedient,<br />und mit ihm so manch´ romantische Nacht,<br />wo unter Laternen bei Liebenden,<br />die Leidenschaft wurde entfacht.<br /><br />Nicht alles in unserer modernen Zeit,<br />ist schöner geworden,<br />viele alte Bräuche leider ausgerotten.<br /><br />Nur in ganz kleinen Dörfen,<br />kann man noch seh´n,<br />einen Nachtwächter nachts durch die Straßen geh´n<br /><br />- Inge Wamser' },
+  { row: 0, col: 4, number: '9', title: 'Musikvideo Italien', imageUrls: [`img/doors/09_Musikvideo_Italien.jpg`], textAlign: 'center', text: 'Musik, die internationale Sprache der Gemeinschaft<br />Wo sie spielt, sagt der Volksmund, da ist die Eintracht<br /><br />Ein Musikvideo der Klasse 8 an der Heinrich-Steinhöwel-Schule war der Beginn<br />Am Ende fuhren die Kinder zur Endrunde nach Italien<br /><br />Unterstützt vom LCJK war das Projekt der Schule ein tolles Ergebnis<br />Und für die Schüler ein sehr bewegendes Erlebnis' },
+  { row: 1, col: 0, number: '12', title: 'Keppiweg', imageUrls: ['img/doors/12_Keppiweg_1.jpg', 'img/doors/12_Keppiweg_2.jpg', 'img/doors/12_Keppiweg_3.jpg'], text: 'Der Walderlebnispfad in Weil der Stadt wurde eröffnet. Wir freuen uns, dass wir das Projekt mit- unterstützen konnten und wünschen allen Kindern viel Spaß beim Entdecken der Natur! ' },
+  { row: 1, col: 1, number: '16', title: 'Weihnachtsmarkt', imageUrls: ['img/doors/16_Weihnachtsmarkt_1.jpg', 'img/doors/16_Weihnachtsmarkt_2.jpg'], text: 'Der Leo ist beim Weihnachtsmarkt der große Hit bei den Kids' },
+  { row: 1, col: 2, number: '7', title: 'Forum Zukunft 2018', imageUrls: ['img/doors/07_Forum_Zukunft_2018_1.jpg', 'img/doors/07_Forum_Zukunft_2018_2.jpg', 'img/doors/07_Forum_Zukunft_2018_3.jpg'], text: 'Dr. Hans-Jürgen Rülke referierte beim LCJK Forum Zukunft 2018 zum Thema "Die Zukunft Baden-Württembergs im Zeitalter der Digitalisierung". Der Vorsitzende der FDP-Landtagsfraktion forderte, dass für die Digitalisierung ein schneller und funktionierender Breitbandausbau bereitgestellt wird. Hier sei der Staat gefragt, wenn der Markt nicht funktioniere. Damit dies gelinge, sei ein Digitalisierungsministerium erforderlich.' },
+  { row: 1, col: 3, number: '11', title: 'Plätzchen backen', imageUrls: ['img/doors/11_Plätzchen_1.jpg', 'img/doors/11_Plätzchen_2.jpg', 'img/doors/11_Plätzchen_3.jpg'], textAlign: 'center', text: 'Jedes Jahr in der Weihnachtszeit<br />Machen sich unsere Mitglieder am Backtisch breit<br />Fast wie bei den Profis wird der Teig gerollt<br />Mit viel Zeit für Gespräche und Reflexion, das ist gewollt<br />Um sie später zu verkaufen, diese Gaumenfreuden<br />Dies alles hilft, unsere nötigen Spenden zu erzeugen<br />Geld, welches so dringend benötigt<br />Die der LCJK für soziale Projekte als Spenden tätigt' },
+  { row: 1, col: 4, number: '1', title: 'Tischkicker', imageUrls: [`img/doors/01_Tischkicker.jpg`], textAlign: 'center', text: `In der Würmtalschule<br />Da liegen die Kinder nicht im Klappstuhle<br />Und sie machen auch nicht nur auf dem Handy geklicker<br />Denn sie haben seit 2019 vom LCJK einen coolen Tischkicker` },
+  { row: 2, col: 0, number: '10', title: 'Narrenmuseum', imageUrls: ['img/doors/10_Narrenmuseum_1.jpg', 'img/doors/10_Narrenmuseum_2.jpg'], textAlign: 'center', text: 'Die Fasnet ist ein alter Brauch.<br />Kulturerbe ist sie jetzt auch!<br />Zur Fasnetszeit sieht man die Narren<br />Auf dr‘ Gass in großen Scharen.<br />Um sie danach auch noch zu sehen<br />Mussten wir ins Museum gehen.<br />Dort trifft man sie – ja das ist wahr –<br />lebensgroß das ganze Jahr.' },
+  { row: 2, col: 1, number: '2', title: 'Mosaik', imageUrls: [`img/doors/02_Mosaik.jpg`], textAlign: 'center', text: 'Johannes Kepler mit seinem Wissen zur Astronomie<br />Inspiriert auch heute noch Kinder, was für ein Genie<br />Ein Mosaik am Brunnen, mit Sonne, Mond und Sterne<br />Und den Tierkreiszeichen aus weiter Ferne<br />Gestaltet und erbaut von einer Gemeinschaft der Kinder<br />Unterstützt vom LCJK als großzügiger Spender' },
+  { row: 2, col: 2, number: '4', title: 'Tombolagarage', imageUrls: [`img/doors/04_Tombolagarge.jpg`], textAlign: 'center', text: 'Viel zu tun gabs hier für alle Hände<br />Groß war die Zahl der Dinge die kamen als Spende<br />Im Querpass in Holzgerlingen gewann jedes Los<br />Das kam gut an und die Einnahmen waren recht groß<br />Die Gelder gehen weiter und kommen zugute den Kindern der Region<br />Mithilfe der LCJK Organisation' },
+  { row: 2, col: 3, number: '15', title: 'Adventskalender', imageUrls: ['img/doors/15_Adventskalender_1.jpg', 'img/doors/15_Adventskalender_2.jpg'], text: 'Der Adventskalender ist in jedem Jahr ein Highlight der LCJK Aktivitäten.<br />Mit großer Unterstützung der Gewerbe aus Weil der Stad und Umgebung können attraktive Preise verlost werden. Durch den hohen Absatz der Kalender wird dem LCJK in jedem Jahr ermöglich sich um verschiedene Projekte in der Region zu kümmern.<br />Bild 2: Adventskalender-Verkaufsstelle Café Konditorei Königstor unseres LF Michael im Jahr 2017' },
+  { row: 2, col: 4, number: '14', title: 'Sumoringen', imageUrls: [`img/doors/14_Sumoringer.png`], text: 'Der Lions Club stiftet den Kindern in Weil der Stadt Sumoringer-Anzüge zum gefahrlosen Aggressionsabbau.' },
+  { row: 3, col: 0, number: '6', title: 'Forum Zukunft 2017', imageUrls: [`img/doors/06_Forum_Zukunft_2017_1.jpg`, `img/doors/06_Forum_Zukunft_2017_2.jpg`, `img/doors/06_Forum_Zukunft_2017_3.jpg`, `img/doors/06_Forum_Zukunft_2017_4.jpg`], text: 'In einer sehr engagierten Rede stellte Alexander Graf Lambsdorff bei unserem Forum Zukunft 2017 seine Vision zur Zukunft Europas vor. Unter dem Titel "Wie geht es weiter nach Brexit, Trump & Co?" gab der Vizepräsident des Europäischen Parlaments einen fundierten Überblick über die Herausforderungen und Krisenherde in Europa. Besonders wichtig war es dem Referenten, die junge Generation für Europa zu begeistern.' },
+  { row: 3, col: 1, number: '18', title: 'Segelfliegen', imageUrls: ['img/doors/18_Segelfliegen.jpg'], text: 'Der LCJK und die Leos aus Sindelfingen ermöglichen mit Unterstützung des Flugsportvereins Sindelfingen auf dem Segelflugplatz Deckenpfronn vielen Kindern und Jugendlichen, dass sie das erste Mal fliegen können.<br />Bleibende Eindrücke!' },
+  { row: 3, col: 2, number: '5', title: 'Forum Zukunft allgemein', imageUrls: ['img/doors/05_Forum_allgemein_1.jpg', 'img/doors/05_Forum_allgemein_2.jpg'], textAlign: 'center', text: 'Das Forum Zukunft ist der jährliche Mittelpunkt<br />Gehalten im Klösterle, schlicht und ohne viel Prunk<br /><br />Die Themen sind es, die die Menschen begeistern<br />Vorgetragen von Experten, den thematischen Großmeistern<br /><br />Im kleinen Raum kommt man sich auch persönlich sehr nah<br />Und hat Zeit für den Austausch von Gedanken, ganz wunderbar<br />' },
+  { row: 3, col: 3, number: '19', title: 'Lions Club unterstützt den Kauf einer Kletterwand für die Kita Rappelkiste', imageUrls: ['img/doors/19_Kletterwand.jpg'], text: 'Der Lions Club Johannes Kepler trägt zum Erwerb einer Kletterwand für die Kindertagesstätte Rappelkiste in Weil der Stadt bei. Klettern ist ein großes Bedürfnis für Kinder. Der Wunsch der Kita Rappelkiste in Weil der Stadt für den neu gestalteten Bewegungsraum war daher mehr als verständlich; auch für den Lions Club Johannes Kepler, der immer gerne Kinder- und Jugendprojekte in Weil der Stadt unterstützt. Finanziert wurde die Kletterwand ungefähr zur Hälfte von der Stadt selbst. EUR 1.200,00 trug der Lions Club Johannes Kepler bei. In ähnlicher Höhe spendete auch Unternehmer und Gemeinderatsmitglied Michael Borger.' },
+  { row: 3, col: 4, number: '20', title: 'Christoffel Blindenmission', imageUrls: ['img/doors/20_Blindenmission.jpg'], text: 'Der Lions Club Johannes Kepler steht heute gemeinsam mit dem Lions Club Böblingen Sindelfingen und der Christoffel-Blindenmission in Sindelfingen bei Hofmeister mit dem Blindenerlebnismobil. Für nur 30 Euro können Bedürftige in Afrika, Asien oder Lateinamerika am Grauen Star operiert werden und wieder sehen.' },
+  { row: 4, col: 0, number: '8', title: 'Forum Zukunft 2019', imageUrls: ['img/doors/08_Forum_Zukunft_2019_1.jpg', 'img/doors/08_Forum_Zukunft_2019_2.jpg', 'img/doors/08_Forum_Zukunft_2019_3.jpg', 'img/doors/08_Forum_Zukunft_2019_4.jpg'], text: 'Frau Dr. Saskia Biskup stellte in einem mitreißenden Vortrag beim LCJK Forum Zukunft 2019 das Thema "Krebs in 2030 - Visionen einer Ärztin und Unternehmerin" vor.<br />Die Fachärztin für Humangenetik und Geschäftsführerin des Bio-Tech-Unternehmens CeGaT GmbH ist zuversichtlich, dass die Medizin mit individuell zugeschnittenen Medikamenten manche Krebsformen immer besser in den Griff bekommen kann. Sie entwickelte die Vision, dass dank moderner Gentechnik über die Diagnostik und Therapie zukünftig viele Krebspatienten ein weitgehend beschwerdefreies Leben führen können.' },
+  { row: 4, col: 1, number: '21', title: 'Freestyle Garage', imageUrls: ['img/doors/21_Freestyle_Garage_1.jpg', 'img/doors/21_Freestyle_Garage_2.jpg', 'img/doors/21_Freestyle_Garage_3.jpg'], text: 'Einweihung des neuen Treffpunkts für die Jugendlichen in Weil der Stadt - der „Freestyle Garage“-, einer zweiseitig geöffneten Doppelgarage mit Sitzgelegenheit, einer Grillstelle und einer Mini-Skate-Rampe. Wir wünschen den Jugendlichen viel Spaß mit der Freestyle-Garage und haben hier gerne mitunterstützt.' },
+  { row: 4, col: 2, number: '24', title: 'Frohe Weihnachten!', imageUrls: [`img/2020_aquarell.jpg`], text: '' },
+  { row: 4, col: 3, number: '17', title: 'Spende zugunsten der Jugendmannschaft des Schachvereins Weil der Stadt', imageUrls: ['img/doors/17_Schach.jpg'], text: 'Wir unterstützen in diesem Jahr auch die Jugendmannschaft des Schachvereins Weil der Stadt 1978 e.V. mit einer Spende im Wert von € 450,00. Der kleine Verein kann in dieser Spielsaison erfreulicherweise eine zweite Jugendmannschaft in der C-Klasse des Schachbezirks Stuttgart-West aufstellen. Da die Spiele aber zeitgleich mit denen der ersten Mannschaft stattfinden, fehlten vier Schachgarnituren, bestehend aus Spielbrett, Figuren und Schachuhr. Wir freuen uns, dass wir hier helfen konnten' },
+];
+
+/*   for (let i = 0; i < 24; i++) {
+    doors.push({ row: Math.floor(i / 5), col: i % 5, number: '' + (i + 1), imageUrl: `img/doors/${i + 1}.jpg` });
+  } */
+const myApp = new Vue({
+  data() {
+    return {
+      doors,
+      displayImage: false,
+      displayUrl: null,
+      currentDoor: doors[0]
+    }
+  },
+  computed: {
+    doorTitle: function () {
+      return this.currentDoor.number + ': ' + this.currentDoor.title;
+    }
+  },
+  methods: {
+    openDoor: function (door) {
+      if (this.canOpenDoor(door)) {
+        console.log(`open ${door.number}, pressed and visible: ${this.displayImage}`);
+        this.currentDoor = door;
+        this.displayImage = true;
+      } else {
+        console.log('Day is after door number! Not opening door.')
+      }
+    },
+
+    canOpenDoor: function (door) {
+      return door.number <= new Date().getDate();
+    }
+
+    /*       getRandomImage: function () {
+            const max = 11;
+            this.currentNumber = (Math.floor(Math.random() * Math.floor(max)) + 1);
+            return 'img/doors/' + this.currentNumber + '.jpg';
+          } */
+  },
+  components: {
+    'p-dialog': dialog,
+    'p-button': button,
+    'p-carousel': carousel
+  }
+});
+myApp.$mount('#wrapper');
+Vue.prototype.$primevue = { ripple: true };
