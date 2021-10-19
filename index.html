@@ -34,9 +34,9 @@
     #wrapper {
       margin: auto;
       display: grid;
-      grid-template-columns: auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
       grid-column-gap: 50px;
-      grid-row-gap: 50px;
+      grid-row-gap: 30px;
       max-width: 44rem;
 
     }
@@ -163,7 +163,7 @@
       <div class="door-container__back"
         v-bind:style="'background-size: cover; background-image: url('+ door.imageUrls[0]+')'"></div>
       <div v-bind:class="canOpenDoor(door)? 'door-container__front' : 'door-container__front-fixed'"
-        v-bind:style="'background-position: ' + (door.col * -150 - 25) + 'px ' + (door.row * -150 - 100) + 'px'">
+        v-bind:style="'background-position: ' + ((door.col * 150 + 100) * -1) + 'px ' + ((door.row * 130 + 75) * -1) + 'px'">
         {{door.number}}</div>
     </div>
     <p-dialog v-bind:header="doorTitle" :visible.sync="displayImage" :modal="true" :maximizable="true"
