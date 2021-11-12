@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lions Club Johannes Kepler - Adventskalender 2020</title>
+  <title>Lions Club Johannes Kepler - Adventskalender 2021</title>
   <script defer src="js/vue@2.6.12/dist/vue.min.js"></script>
   <link href="css/primevue@2.1.0/resources/themes/saga-blue/theme.css " rel="stylesheet">
   <link href="js/primevue@2.1.0/resources/primevue.min.css " rel="stylesheet">
@@ -13,7 +13,7 @@
   <link href="css/animation.css" rel="stylesheet">
   <script defer src="js/primevue@2.1.0/components/button/button.umd.min.js"></script>
   <script defer src="js/primevue@2.1.0/components/dialog/dialog.umd.min.js"></script>
-  <script defer src="js/primevue@2.1.0/components/carousel/carousel.umd.min.js"></script>
+  <script defer src="js/primevue@2.1.0/components/card/card.umd.min.js"></script>
   <style>
     html {
       min-width: 700px;
@@ -153,6 +153,24 @@
     .footer__button:hover {
       text-decoration: underline;
     }
+
+    /* CARDS */
+    .p-dialog div.p-dialog-header,.p-dialog div.p-dialog-content {
+      background: #fafafa
+    }
+    .p-card .p-card-body .p-card-title {
+      font-size: 1.3rem;
+      font-weight: 500;
+      margin-bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .p-card .p-card-body .p-card-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   </style>
   <link rel="shortcut icon" href="img/favicon.png" />
 </head>
@@ -161,24 +179,22 @@
   <div id="wrapper">
     <div class="door-container" v-for='door in doors' v-on:click="openDoor(door)">
       <div class="door-container__back"
-        v-bind:style="'background-size: cover; background-image: url('+ door.imageUrls[0]+')'"></div>
+        v-bind:style="'background-size: cover;'"></div>
       <div v-bind:class="canOpenDoor(door)? 'door-container__front' : 'door-container__front-fixed'"
         v-bind:style="'background-position: ' + ((door.col * 150 + 100) * -1) + 'px ' + ((door.row * 130 + 75) * -1) + 'px'">
         {{door.number}}</div>
     </div>
-    <p-dialog v-bind:header="doorTitle" :visible.sync="displayImage" :modal="true" :maximizable="true"
+    <p-dialog header="Heutige Gewinne" :visible.sync="displayImage" :modal="true" :maximizable="true"
       :dismissable-mask="true">
-      <p style="margin-top: 0" v-bind:style="[currentDoor.textAlign ? { 'text-align': currentDoor.textAlign } : {}]"
-        v-html="currentDoor.text"></p>
-      <div class="flex-center">
-        <p-carousel v-bind:value="currentDoor.imageUrls" v-bind:num-visible="1" v-bind:num-scroll="1"
-          v-bind:circular="false">
-          <template #item="image">
-            <img width="100%" v-bind:src="image.data" />
-          </template>
-        </p-carousel>
-      </div>
-    </p-dialog>
+      <p-card v-for='price in currentDoor.prices' style="margin-bottom: 10px">
+        <template #title>
+          {{price.sponsor}}
+        </template>
+        <template #content>
+          {{price.text}}
+        </template>
+      </p-card>
+    </p-dialog> 
     <footer>
       <a href="https://www.lcjk.de/j/privacy" class="p-button-link footer__button">Datenschutz</a>
       <a href="https://www.lcjk.de/about/" class="p-button-link footer__button">Impressum</a>
