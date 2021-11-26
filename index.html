@@ -116,6 +116,22 @@
       justify-content: center;
     }
 
+    @media (min-width: 30em) {
+      .price-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+      }
+    }
+
+    @media (min-width: 50em) {
+      .price-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+      }
+    }
+
     /* overrides */
     .p-button:enabled:hover,
     .p-button:enabled:focus {
@@ -155,9 +171,11 @@
     }
 
     /* CARDS */
-    .p-dialog div.p-dialog-header,.p-dialog div.p-dialog-content {
+    .p-dialog div.p-dialog-header,
+    .p-dialog div.p-dialog-content {
       background: #fafafa
     }
+
     .p-card .p-card-body .p-card-title {
       font-size: 1.3rem;
       font-weight: 500;
@@ -166,10 +184,16 @@
       justify-content: center;
       align-items: center;
     }
+
     .p-card .p-card-body .p-card-content {
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
+    }
+
+    .p-card-content p {
+      margin: 0
     }
   </style>
   <link rel="shortcut icon" href="img/favicon.png" />
@@ -178,23 +202,25 @@
 <body>
   <div id="wrapper">
     <div class="door-container" v-for='door in doors' v-on:click="openDoor(door)">
-      <div class="door-container__back"
-        v-bind:style="'background-size: cover;'"></div>
+      <div class="door-container__back" v-bind:style="'background-size: cover;'"></div>
       <div v-bind:class="canOpenDoor(door)? 'door-container__front' : 'door-container__front-fixed'"
         v-bind:style="'background-position: ' + ((door.col * 150 + 100) * -1) + 'px ' + ((door.row * 130 + 75) * -1) + 'px'">
         {{door.number}}</div>
     </div>
     <p-dialog header="Heutige Gewinne" :visible.sync="displayImage" :modal="true" :maximizable="true"
       :dismissable-mask="true">
-      <p-card v-for='price in currentDoor.prices' style="margin-bottom: 10px">
-        <template #title>
-          {{price.sponsor}}
-        </template>
-        <template #content>
-          {{price.text}}
-        </template>
-      </p-card>
-    </p-dialog> 
+      <div class="price-container">
+        <p-card v-for='price in currentDoor.prices'>
+          <template #title>
+            {{price.sponsor}}
+          </template>
+          <template #content>
+            <p v-html="price.text"></p>
+            <p>Gewinner: {{price.winner}}</p>
+          </template>
+        </p-card>
+      </div>
+    </p-dialog>
     <footer>
       <a href="https://www.lcjk.de/j/privacy" class="p-button-link footer__button">Datenschutz</a>
       <a href="https://www.lcjk.de/about/" class="p-button-link footer__button">Impressum</a>
@@ -223,6 +249,8 @@
     <div class="snowflake">❅</div>
     <div class="snowflake">❅</div>
   </div>
+  <script src="js/doors.js" defer>
+  </script>
   <script src="js/index.js" defer>
   </script>
 </body>
