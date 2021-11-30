@@ -100,6 +100,8 @@
       height: 100%;
       border: 0;
       /* transform: translateZ(2px); */
+      background-size: cover;
+      background-image: url("img/door_bg.png");
     }
 
     /* open door animation */
@@ -116,12 +118,10 @@
       justify-content: center;
     }
 
-    @media (min-width: 30em) {
-      .price-container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 10px;
-      }
+    .price-container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 10px;
     }
 
     @media (min-width: 50em) {
@@ -140,7 +140,7 @@
     }
 
     .p-dialog {
-      width: 800px;
+      width: 990px;
     }
 
     footer {
@@ -177,7 +177,7 @@
     }
 
     .p-card .p-card-body .p-card-title {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       font-weight: 500;
       margin-bottom: 0;
       display: flex;

@@ -82,7 +82,58 @@ const doors = [
     row: 2,
     col: 0,
     number: "3",
-    prices: [],
+    prices: [
+      {
+        sponsor: "Friedrich Schirott Bekleidungshaus, Weil der Stadt am Rathaus",
+        text: "1 Einkaufsgutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mosterei Franz Decker, Weil der Stadt",
+        text: "1 Gutschein für 3 Pack Weil der Städter Apfelsaft (5 Liter Bag in Box)",
+        winner: "",
+      },
+      {
+        sponsor: "Mosterei Franz Decker, Weil der Stadt",
+        text: "1 Gutschein für 3 Pack Weil der Städter Apfelsaft (5 Liter Bag in Box)",
+        winner: "",
+      },
+      {
+        sponsor: "Mosterei Franz Decker, Weil der Stadt",
+        text: "1 Gutschein für 3 Pack Weil der Städter Apfelsaft (5 Liter Bag in Box)",
+        winner: "",
+      },
+      {
+        sponsor: "Mosterei Franz Decker, Weil der Stadt",
+        text: "1 Gutschein für 3 Pack Weil der Städter Apfelsaft (5 Liter Bag in Box)",
+        winner: "",
+      },
+      {
+        sponsor: "HÄDECKE VERLAG, Weil der Stadt",
+        text: "2 Kochbücher <ul><li>Pizza originale</li><li>Mozzarella originale</li></ul> im Gesamtwert von 34,95 €",
+        winner: "",
+      },
+      {
+        sponsor: "HÄDECKE VERLAG, Weil der Stadt",
+        text: "2 Kochbücher <ul><li>Pizza originale</li><li>Mozzarella originale</li></ul> im Gesamtwert von 34,95 €",
+        winner: "",
+      },
+      {
+        sponsor: "HÄDECKE VERLAG, Weil der Stadt",
+        text: "2 Kochbücher <ul><li>Pizza originale</li><li>Mozzarella originale</li></ul> im Gesamtwert von 34,95 €",
+        winner: "",
+      },
+      {
+        sponsor: "HÄDECKE VERLAG, Weil der Stadt",
+        text: "2 Kochbücher <ul><li>Pizza originale</li><li>Mozzarella originale</li></ul> im Gesamtwert von 34,95 €",
+        winner: "",
+      },
+      {
+        sponsor: "café konditorei KÖNIGSTOR, Weil der Stadt",
+        text: "1 Verzehrgutschein im Wert von 25,- €",
+        winner: "",
+      },
+    ],
   },
   {
     row: 2,

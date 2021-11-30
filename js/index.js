@@ -9,6 +9,7 @@ const myApp = new Vue({
       displayImage: false,
       displayUrl: null,
       currentDoor: doors[0],
+      urlParams: new URLSearchParams(window.location.search)
     };
   },
   computed: {
@@ -30,14 +31,8 @@ const myApp = new Vue({
     },
 
     canOpenDoor: function(door) {
-      return door.number <= new Date().getDate();
+      return this.urlParams.get('debug') == 'true' || (new Date().getMonth() == 11 && door.number <= new Date().getDate());
     },
-
-    /*       getRandomImage: function () {
-            const max = 11;
-            this.currentNumber = (Math.floor(Math.random() * Math.floor(max)) + 1);
-            return 'img/doors/' + this.currentNumber + '.jpg';
-          } */
   },
   components: {
     "p-dialog": dialog,
