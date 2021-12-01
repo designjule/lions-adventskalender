@@ -257,3 +257,6 @@ const doors = [
     prices: [],
   },
 ];
+
+
+export default doors;

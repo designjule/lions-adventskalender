@@ -1,0 +1,35 @@
+{
+  "name": "lions-adventskalender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "primevue": "2.1.0",
+    "vue": "2.6.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "2.6.12",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianfiedler/lions-adventskalender.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianfiedler/lions-adventskalender/issues"
+  },
+  "homepage": "https://github.com/adrianfiedler/lions-adventskalender#readme"
+}

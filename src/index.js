@@ -1,7 +1,15 @@
 
+
+import Vue from 'vue/dist/vue.js';
+import Dialog from 'primevue/dialog';
+import Button from 'primevue/button';
+import Card from 'primevue/card';
+import doors from './doors.js';
+
 /*   for (let i = 0; i < 24; i++) {
     doors.push({ row: Math.floor(i / 5), col: i % 5, number: '' + (i + 1), imageUrl: `img/doors/${i + 1}.jpg` });
   } */
+
 const myApp = new Vue({
   data: function() {
     return {
@@ -35,9 +43,9 @@ const myApp = new Vue({
     },
   },
   components: {
-    "p-dialog": dialog,
-    "p-button": button,
-    "p-card": card,
+    "p-dialog": Dialog,
+    "p-button": Button,
+    "p-card": Card,
   },
 });
 myApp.$mount("#wrapper");
