@@ -64,7 +64,23 @@ const doors = [
     row: 1,
     col: 1,
     number: "4",
-    prices: [],
+    prices: [
+      {
+        sponsor: "Scheurer & Decker Steuerberater, Leonberg",
+        text: "1 Gutschein für eine Einkommensteuererklärung",
+        winner: "K0510",
+      },
+      {
+        sponsor: "Sabine Schreiber Fotografie, Weil der Stadt",
+        text: "1 Gutschein für Passfotos im Wert von 15,- €",
+        winner: "K1428",
+      },
+      {
+        sponsor: "BLUMENHAUS RENZ, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "K0824",
+      },
+    ],
   },
   {
     row: 1,
@@ -84,48 +100,57 @@ const doors = [
     number: "3",
     prices: [
       {
-        sponsor: "Friedrich Schirott Bekleidungshaus, Weil der Stadt am Rathaus",
+        sponsor:
+          "Friedrich Schirott Bekleidungshaus, Weil der Stadt am Rathaus",
         text: "1 Einkaufsgutschein im Wert von 25,- €",
         winner: "K1876",
       },
       {
         sponsor: "Mosterei Franz Decker, Weil der Stadt",
-        text: "1 Gutschein für 3 Pack Weil der Städter Apfelsaft (5 Liter Bag in Box)",
+        text:
+          "1 Gutschein für 3 Pack Weil der Städter Apfelsaft (5 Liter Bag in Box)",
         winner: "K0231",
       },
       {
         sponsor: "Mosterei Franz Decker, Weil der Stadt",
-        text: "1 Gutschein für 3 Pack Weil der Städter Apfelsaft (5 Liter Bag in Box)",
+        text:
+          "1 Gutschein für 3 Pack Weil der Städter Apfelsaft (5 Liter Bag in Box)",
         winner: "K1855",
       },
       {
         sponsor: "Mosterei Franz Decker, Weil der Stadt",
-        text: "1 Gutschein für 3 Pack Weil der Städter Apfelsaft (5 Liter Bag in Box)",
+        text:
+          "1 Gutschein für 3 Pack Weil der Städter Apfelsaft (5 Liter Bag in Box)",
         winner: "K1134",
       },
       {
         sponsor: "Mosterei Franz Decker, Weil der Stadt",
-        text: "1 Gutschein für 3 Pack Weil der Städter Apfelsaft (5 Liter Bag in Box)",
+        text:
+          "1 Gutschein für 3 Pack Weil der Städter Apfelsaft (5 Liter Bag in Box)",
         winner: "K1115",
       },
       {
         sponsor: "HÄDECKE VERLAG, Weil der Stadt",
-        text: "2 Kochbücher <ul><li>Pizza originale</li><li>Mozzarella originale</li></ul> im Gesamtwert von 34,95 €",
+        text:
+          "2 Kochbücher <ul><li>Pizza originale</li><li>Mozzarella originale</li></ul> im Gesamtwert von 34,95 €",
         winner: "K0217",
       },
       {
         sponsor: "HÄDECKE VERLAG, Weil der Stadt",
-        text: "2 Bücher<ul><li>Meze: Orientalische Gaumengeschenke</li><li>Santorin: Rezepte & Bilder aus der Ägäis</li></ul>im Gesamtwert von 31,95 €",
+        text:
+          "2 Bücher<ul><li>Meze: Orientalische Gaumengeschenke</li><li>Santorin: Rezepte & Bilder aus der Ägäis</li></ul>im Gesamtwert von 31,95 €",
         winner: "K1712",
       },
       {
         sponsor: "HÄDECKE VERLAG, Weil der Stadt",
-        text: "2 Bücher<ul><li>Das Männerkochbuch</li><li>Das Männerkochbuch – Crossover</li></ul>Im Gesamtwert von 41,90  €",
+        text:
+          "2 Bücher<ul><li>Das Männerkochbuch</li><li>Das Männerkochbuch – Crossover</li></ul>Im Gesamtwert von 41,90  €",
         winner: "K0199",
       },
       {
         sponsor: "HÄDECKE VERLAG, Weil der Stadt",
-        text: "2 Bücher<ul><li>Die Sprache der Küche</li><li>Der kleine Restaurantkritiker, Notizbuch</li></ul>Im Gesamtwert von 34,90  €",
+        text:
+          "2 Bücher<ul><li>Die Sprache der Küche</li><li>Der kleine Restaurantkritiker, Notizbuch</li></ul>Im Gesamtwert von 34,90  €",
         winner: "K0952",
       },
       {
@@ -218,7 +243,37 @@ const doors = [
     row: 4,
     col: 1,
     number: "5",
-    prices: [],
+    prices: [
+      {
+        sponsor: "HÄDECKE VERLAG, Weil der Stadt",
+        text:
+          "2 Bücher<ul><li>Trüffeltang, Ananas-Ameisen und die Fässer des Herrn Takahashi</li><li>Der kleine Restaurantkritiker, Notizbuch</li></ul> im Gesamtwert von 35,- €",
+        winner: "K0789",
+      },
+      {
+        sponsor: "HÄDECKE VERLAG, Weil der Stadt",
+        text:
+          "2 Kochbücher<ul><li>Brotaufstriche vegan & vollwertig</li><li>Suppen, Aufläufe und Eintöpfe vegan & vollwertig</li></ul> im Gesamtwert von 25,60 €",
+        winner: "K0031",
+      },
+      {
+        sponsor: "HÄDECKE VERLAG, Weil der Stadt",
+        text: "Meine vegane Bäckerei im Wert von 24,-€",
+        winner: "K1018",
+      },
+      {
+        sponsor:
+          "enBer Ingenieurbüro für Energieberatung - Klaus Hofbauer, Weil der Stadt - Merklingen",
+        text: "1 Gutschein für eine Gebäudethermografie Im Wert von 150,- €",
+        winner: "K1079",
+      },
+      {
+        sponsor:
+          "enBer Ingenieurbüro für Energieberatung - Klaus Hofbauer, Weil der Stadt - Merklingen",
+        text: "1 Gutschein für eine Gebäudethermografie Im Wert von 150,- €",
+        winner: "K0020",
+      },
+    ],
   },
   {
     row: 4,
