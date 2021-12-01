@@ -21,7 +21,7 @@ const myApp = new Vue({
     openDoor: function(door) {
       if (this.canOpenDoor(door)) {
         console.log(
-          `open ${door.number}, pressed and visible: ${this.displayImage}`
+          "open " + door.number + ", pressed and visible: "+ this.displayImage
         );
         this.currentDoor = door;
         this.displayImage = true;
