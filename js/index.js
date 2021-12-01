@@ -3,7 +3,7 @@
     doors.push({ row: Math.floor(i / 5), col: i % 5, number: '' + (i + 1), imageUrl: `img/doors/${i + 1}.jpg` });
   } */
 const myApp = new Vue({
-  data() {
+  data: function() {
     return {
       doors,
       displayImage: false,
