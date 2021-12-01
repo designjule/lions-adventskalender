@@ -50,3 +50,7 @@ const myApp = new Vue({
 });
 myApp.$mount("#wrapper");
 Vue.prototype.$primevue = { ripple: true };
+
+const x = (name) => console.log(`hi` + name);
+x('Adrian');
+x('Bdrian');
