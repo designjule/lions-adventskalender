@@ -5,7 +5,7 @@
 const myApp = new Vue({
   data: function() {
     return {
-      doors,
+      doors: doors,
       displayImage: false,
       displayUrl: null,
       currentDoor: doors[0],
