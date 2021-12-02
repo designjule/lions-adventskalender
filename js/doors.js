@@ -213,7 +213,53 @@ const doors = [
     row: 3,
     col: 0,
     number: "7",
-    prices: [],
+    prices: [
+      {
+        sponsor: "WIDMAIER JUWELIER OPTIK AKUSTIK Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "K0255",
+      },
+      {
+        sponsor: "WIDMAIER JUWELIER OPTIK AKUSTIK Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "K0663",
+      },
+      {
+        sponsor: "WIDMAIER JUWELIER OPTIK AKUSTIK Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "K1152",
+      },
+      {
+        sponsor: "WIDMAIER JUWELIER OPTIK AKUSTIK Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "K1202",
+      },
+      {
+        sponsor: "WIDMAIER JUWELIER OPTIK AKUSTIK Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "K0351",
+      },
+      {
+        sponsor: "Reisebüro Reeg GmbH, Weil der Stadt",
+        text: "1 Reisegutschein im Wert von 50,- €",
+        winner: "K0111",
+      },
+      {
+        sponsor: "Schreinerei Lutz, Weil der Stadt - Merlingen",
+        text: "1 x Weiler Taler im Wert von 40,- €",
+        winner: "K0933",
+      },
+      {
+        sponsor: "Vibratec Verdichtungstechnik GmbH, Weil der Stadt",
+        text: "1 x Weiler Taler im Wert von 50,- €",
+        winner: "K1800",
+      },
+      {
+        sponsor: "Fruchtkörble, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "K1719",
+      },
+    ],
   },
   {
     row: 3,
