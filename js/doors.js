@@ -231,7 +231,32 @@ const doors = [
     row: 3,
     col: 3,
     number: "6",
-    prices: [],
+    prices: [
+      {
+        sponsor: "HÄDECKE VERLAG, Weil der Stadt",
+        text:
+          "Bodenseelust: Eine kulinarische Reise mit Rezepten der Region im Wert von 32,- €",
+        winner: "K0396",
+      },
+      {
+        sponsor: "HÄDECKE VERLAG, Weil der Stadt",
+        text:
+          "2 Bücher<ul><li>Die 12 wichtigsten essbaren Wildpflanzen: Bestimmen, sammeln und zubereiten</li><li>Die 12 besten essbaren Pionierpflanzen: Bestimmen, sammeln und zubereiten</li></ul> inkl. einem Sammelbeutel im Wert von 24,80 €",
+        winner: "K1404",
+      },
+      {
+        sponsor: "SZ/BZ - Sindelfinger Zeitung/Böblinger Zeitung",
+        text:
+          "1 Gutschein für ein Halbjahres-Abo für das  SZ/BZ-E-Paper im Wert von 137,- €",
+        winner: "K1437",
+      },
+      {
+        sponsor: "SZ/BZ - Sindelfinger Zeitung/Böblinger Zeitung",
+        text:
+          "1 Gutschein für ein Halbjahres-Abo für das  SZ/BZ-E-Paper im Wert von 137,- €",
+        winner: "K0128",
+      },
+    ],
   },
   {
     row: 4,
