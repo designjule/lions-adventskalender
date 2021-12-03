@@ -195,6 +195,10 @@
     .p-card-content p {
       margin: 0
     }
+
+    .p-card-content ul {
+      padding-left: 1.2rem;
+    }
   </style>
   <link rel="shortcut icon" href="img/favicon.png" />
 </head>
@@ -216,7 +220,7 @@
           </template>
           <template #content>
             <p v-html="price.text"></p>
-            <p>Gewinner: {{price.winner}}</p>
+            <p>Kalender-Nr.: <strong>{{price.winner}}</strong></p>
           </template>
         </p-card>
       </div>
