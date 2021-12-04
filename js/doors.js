@@ -92,7 +92,44 @@ const doors = [
     row: 1,
     col: 3,
     number: "8",
-    prices: [],
+    prices: [
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K1971",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0270",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K1159",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K1280",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0412",
+      },
+      {
+        sponsor: "Landgasthof 1610, Weil der Stadt - Merklingen",
+        text: "1 Verzehrgutschein im Wert von 25,- €",
+        winner: "K1730",
+      },
+      {
+        sponsor:
+          "enBer Ingenieurbüro für Energieberatung - Klaus Hofbauer, Weil der Stadt - Merklingen",
+        text: "1 Gutschein für eine Gebäudethermografie Im Wert von 150,- €",
+        winner: "K0489",
+      },
+    ],
   },
   {
     row: 2,
@@ -374,7 +411,58 @@ const doors = [
     row: 5,
     col: 2,
     number: "9",
-    prices: [],
+    prices: [
+      {
+        sponsor: "STADT-APOTHEKE AM NARRENBRUNNEN, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "K0538",
+      },
+      {
+        sponsor: "STADT-APOTHEKE AM NARRENBRUNNEN, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "K0586",
+      },
+      {
+        sponsor: "STADT-APOTHEKE AM NARRENBRUNNEN, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "K1781",
+      },
+      {
+        sponsor: "STADT-APOTHEKE AM NARRENBRUNNEN, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "K0259",
+      },
+      {
+        sponsor: "STADT-APOTHEKE AM NARRENBRUNNEN, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "K1064",
+      },
+      {
+        sponsor: "Praxis Martina Roeßle, Weil der Stadt",
+        text: "1 Gutschein für eine Fußreflexzonentherapie",
+        winner: "K0140",
+      },
+      {
+        sponsor: "Hechtbräu KG, Weil der Stadt",
+        text: "1 Verzehrgutschein im Wert von 25,- €",
+        winner: "K1539",
+      },
+      {
+        sponsor: "Benny Blanko Partystadl & Club, Sindelfingen",
+        text: "1 x Weiler Taler im Wert von 50,- €",
+        winner: "K1895",
+      },
+      {
+        sponsor: "Kosmetikstudio Sabine Albrecht, Bad Liebenzell - Möttlingen",
+        text: "1 Verwöhngesichtsbehandlung im Wert von 49,-€",
+        winner: "K0224",
+      },
+      {
+        sponsor: "Kosmetikstudio Sabine Albrecht, Bad Liebenzell - Möttlingen",
+        text: "1 Verwöhngesichtsbehandlung im Wert von 49,-€",
+        winner: "K0920",
+      },
+    ],
   },
   {
     row: 5,
