@@ -86,7 +86,67 @@ const doors = [
     row: 1,
     col: 2,
     number: "10",
-    prices: [],
+    prices: [
+      {
+        sponsor: "HÄDECKE VERLAG, Weil der Stadt",
+        text:
+          "2 Bücher<ul><li>Notfall-Apotheke in und aus der Natur</li><li>Die 12 wichtigsten essbaren Wildpflanzen</li></ul>im Gesamtwert von 22,- €",
+        winner: "K1105",
+      },
+      {
+        sponsor: "HÄDECKE VERLAG, Weil der Stadt",
+        text:
+          "2 Kochbücher<ul><li>Knuspermüsli & Granola</li><li>Säfte & Smoothies</li></ul>im Gesamtwert von 25,90 €",
+        winner: "K1090",
+      },
+      {
+        sponsor: "HÄDECKE VERLAG, Weil der Stadt",
+        text:
+          "2 Kochbücher<ul><li>Heiße Schokolade: Die besten Rezepte</li><li>Crumbles: süß und pikant</li></ul>im Gesamtwert von 25,90 €",
+        winner: "K1051",
+      },
+      {
+        sponsor: "HÄDECKE VERLAG, Weil der Stadt",
+        text:
+          "2 Bücher<ul><li>Veganes Fest: Rezepte für Advent, Weihnachten und Silvester</li><li>Fingerfood vegan & vollwertig</li></ul>im Gesamtwert von 25,75 €",
+        winner: "K0478",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0036",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0039",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K1646",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0841",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0846",
+      },
+      {
+        sponsor: "Design Optik Patrizia Vetter, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 50,- €",
+        winner: "K1726",
+      },
+      {
+        sponsor: "Design Optik Patrizia Vetter, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 50,- €",
+        winner: "K0405",
+      },
+    ],
   },
   {
     row: 1,
@@ -244,7 +304,58 @@ const doors = [
     row: 2,
     col: 3,
     number: "11",
-    prices: [],
+    prices: [
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0017",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0168",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0282",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0564",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K1866",
+      },
+      {
+        sponsor: "KEVIN KUGEL® CHOCOLATIER, Sindelfingen",
+        text: "1 Einkaufsgutschein im Wert von 25,- €",
+        winner: "K0150",
+      },
+      {
+        sponsor: "KEVIN KUGEL® CHOCOLATIER, Sindelfingen",
+        text: "1 Einkaufsgutschein im Wert von 25,- €",
+        winner: "K0193",
+      },
+      {
+        sponsor: "KEVIN KUGEL® CHOCOLATIER, Sindelfingen",
+        text: "1 Einkaufsgutschein im Wert von 25,- €",
+        winner: "K1964",
+      },
+      {
+        sponsor: "KEVIN KUGEL® CHOCOLATIER, Sindelfingen",
+        text: "1 Einkaufsgutschein im Wert von 25,- €",
+        winner: "K0449",
+      },
+      {
+        sponsor: "Landgasthof 1610, Weil der Stadt - Merklingen",
+        text: "1 Verzehrgutschein im Wert von 25,- €",
+        winner: "K1532",
+      },
+    ],
   },
   {
     row: 3,
@@ -405,7 +516,39 @@ const doors = [
     row: 5,
     col: 1,
     number: "12",
-    prices: [],
+    prices: [
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0361",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K1186",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0806",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K1861",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K1860",
+      },
+      {
+        sponsor: "INNENARCHITEKTIN JACQUELINE MÖRK, Weil der Stadt",
+        text:
+          "1 Gutschein für eine Einrichtungberatung oder Home Staging im Wert von 700,-Euro",
+        winner: "K1307",
+      },
+    ],
   },
   {
     row: 5,
