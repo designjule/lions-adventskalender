@@ -137,7 +137,60 @@ const doors = [
     row: 1,
     col: 0,
     number: "19",
-    prices: [],
+    prices: [
+      {
+        sponsor: "GOFIT…mein Studio, Weil der Stadt - Merklingen",
+        text:
+          "1 Gutschein für 1 Monat Fitness-Wellness-Kurse im Wert von 40,- €",
+        winner: "K0955",
+      },
+      {
+        sponsor: "GOFIT…mein Studio, Weil der Stadt - Merklingen",
+        text:
+          "1 Gutschein für 1 Monat Fitness-Wellness-Kurse im Wert von 40,- €",
+        winner: "K0543",
+      },
+      {
+        sponsor: "GOFIT…mein Studio, Weil der Stadt - Merklingen",
+        text:
+          "1 Gutschein für 1 Monat Fitness-Wellness-Kurse im Wert von 40,- €",
+        winner: "K1142",
+      },
+      {
+        sponsor: "GOFIT…mein Studio, Weil der Stadt - Merklingen",
+        text:
+          "1 Gutschein für 1 Monat Fitness-Wellness-Kurse im Wert von 40,- €",
+        winner: "K1624",
+      },
+      {
+        sponsor: "GOFIT…mein Studio, Weil der Stadt - Merklingen",
+        text:
+          "1 Gutschein für 1 Monat Fitness-Wellness-Kurse im Wert von 40,- €",
+        winner: "K0041",
+      },
+      {
+        sponsor: "Lichtblick Kommunikation, Leonberg",
+        text: "1 x Weiler Taler im Wert von 50,- €",
+        winner: "K1009",
+      },
+      {
+        sponsor: "Stadt Weil der Stadt",
+        text: "1 x Weiler Taler im Wert von 50,- €",
+        winner: "K0680",
+      },
+      {
+        sponsor:
+          "SENSAPOLIS Indoor-Freizeitpark, Flugfeld Böblingen/Sindelfingen",
+        text: "1 Freikarte (Einzelticket)",
+        winner: "K1284",
+      },
+      {
+        sponsor:
+          "SENSAPOLIS Indoor-Freizeitpark, Flugfeld Böblingen/Sindelfingen",
+        text: "1 Freikarte (Einzelticket)",
+        winner: "K0145",
+      },
+    ],
   },
   {
     row: 1,
@@ -603,7 +656,31 @@ const doors = [
     row: 4,
     col: 0,
     number: "18",
-    prices: [],
+    prices: [
+      {
+        sponsor:
+          "Ernst Heller e.K. Gebäudeenergieberater, Weil der Stadt - Merklingen",
+        text: "1 Gutschein für eine Bauthermografie im Wert von 125,- €",
+        winner: "K0935",
+      },
+      {
+        sponsor:
+          "Ernst Heller e.K. Gebäudeenergieberater, Weil der Stadt - Merklingen",
+        text: "1 Gutschein für eine Bauthermografie im Wert von 125,- €",
+        winner: "K1444",
+      },
+      {
+        sponsor:
+          "Ernst Heller e.K. Gebäudeenergieberater, Weil der Stadt - Merklingen",
+        text: "1 Gutschein für eine Bauthermografie im Wert von 125,- €",
+        winner: "K0026",
+      },
+      {
+        sponsor: "QuerPass, Holzgerlingen",
+        text: "1 Kalas Weinkühler im Wert von 49,95 €",
+        winner: "K0759",
+      },
+    ],
   },
   {
     row: 4,
