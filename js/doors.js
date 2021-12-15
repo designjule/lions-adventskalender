@@ -131,7 +131,43 @@ const doors = [
     row: 0,
     col: 3,
     number: "20",
-    prices: [],
+    prices: [
+      {
+        sponsor: "Kreissparkasse Böblingen",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K1426",
+      },
+      {
+        sponsor: "Kreissparkasse Böblingen",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K1901",
+      },
+      {
+        sponsor: "Kreissparkasse Böblingen",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0636",
+      },
+      {
+        sponsor: "Kreissparkasse Böblingen",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0230",
+      },
+      {
+        sponsor: "Kreissparkasse Böblingen",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0905",
+      },
+      {
+        sponsor: "FIT AVENUE, Weil der Stadt",
+        text: "1 Gutschein für einen Trainingsmonat im Wert von 100,- €",
+        winner: "K1151",
+      },
+      {
+        sponsor: "FIT AVENUE, Weil der Stadt",
+        text: "1 Gutschein für einen Trainingsmonat im Wert von 100,- €",
+        winner: "K2000",
+      },
+    ],
   },
   {
     row: 1,
@@ -430,7 +466,39 @@ const doors = [
     row: 2,
     col: 2,
     number: "24",
-    prices: [],
+    prices: [
+      {
+        sponsor: "Derichsweiler Umzüge, Sindelfingen",
+        text: "1 x Weiler Taler im Wert von 100,- €",
+        winner: "K0517",
+      },
+      {
+        sponsor:
+          "KÖRPERWERK Ergo I Physio I Fitness, Weil der Stadt - Merklingen",
+        text:
+          "1 Gutschein für 3 Monate Training am Milon Gesundheitszirkel im Wert von 225,- €",
+        winner: "K1612",
+      },
+      {
+        sponsor:
+          "KÖRPERWERK Ergo I Physio I Fitness, Weil der Stadt - Merklingen",
+        text:
+          "1 Gutschein für 3 Monate Training am Milon Gesundheitszirkel im Wert von 225,- €",
+        winner: "K0228",
+      },
+      {
+        sponsor:
+          "KÖRPERWERK Ergo I Physio I Fitness, Weil der Stadt - Merklingen",
+        text:
+          "1 Gutschein für 3 Monate Training am Milon Gesundheitszirkel im Wert von 225,- €",
+        winner: "K1611",
+      },
+      {
+        sponsor: "Bäckerei & Konditorei Raisch GmbH & Co. KG, Weil der Stadt",
+        text: "4 Gutscheine im Gesamtwert von 20,- €",
+        winner: "K0229",
+      },
+    ],
   },
   {
     row: 2,
@@ -722,19 +790,126 @@ const doors = [
     row: 4,
     col: 2,
     number: "21",
-    prices: [],
+    prices: [
+      {
+        sponsor: "Blumen Buck, Weil der Stadt - Schafhausen",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "K0462",
+      },
+      {
+        sponsor: "Blumen Buck, Weil der Stadt - Schafhausen",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "K1425",
+      },
+      {
+        sponsor: "Blumen Buck, Weil der Stadt - Schafhausen",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "K0363",
+      },
+      {
+        sponsor: "Blumen Buck, Weil der Stadt - Schafhausen",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "K0575",
+      },
+      {
+        sponsor: "Hechtbräu KG, Weil der Stadt",
+        text: "1 Verzehrgutschein im Wert von 25,- €",
+        winner: "K0637",
+      },
+      {
+        sponsor: "FLEMMIG'S FLAKON, Weil der Stadt",
+        text: "1 Kosmetikbehandlungsgutschein im Wert von 45,- €",
+        winner: "K0535",
+      },
+      {
+        sponsor: "Rössle Reha, Weil der Stadt",
+        text: "Gutschein für 1 Monat Gerätetraining Im Wert von 55,- €",
+        winner: "K1129",
+      },
+    ],
   },
   {
     row: 4,
     col: 3,
     number: "23",
-    prices: [],
+    prices: [
+      {
+        sponsor: "INNENARCHITEKTIN JACQUELINE MÖRK, Weil der Stadt",
+        text:
+          "1 Gutschein für eine Einrichtungberatung oder Home Staging im Wert von 700,-Euro",
+        winner: "K0428",
+      },
+      {
+        sponsor:
+          "SENSAPOLIS Indoor-Freizeitpark, Flugfeld Böblingen/Sindelfingen",
+        text: "1 Freikarte (Einzelticket)",
+        winner: "K0940",
+      },
+      {
+        sponsor:
+          "SENSAPOLIS Indoor-Freizeitpark, Flugfeld Böblingen/Sindelfingen",
+        text: "1 Freikarte (Einzelticket)",
+        winner: "K1701",
+      },
+    ],
   },
   {
     row: 5,
     col: 0,
     number: "22",
-    prices: [],
+    prices: [
+      {
+        sponsor: "RAUM-IDEEN-RAUM ANDREA BLUM, Weil der Stadt",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0027",
+      },
+      {
+        sponsor: "RAUM-IDEEN-RAUM ANDREA BLUM, Weil der Stadt",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K1043",
+      },
+      {
+        sponsor: "RAUM-IDEEN-RAUM ANDREA BLUM, Weil der Stadt",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K1678",
+      },
+      {
+        sponsor: "RAUM-IDEEN-RAUM ANDREA BLUM, Weil der Stadt",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0281",
+      },
+      {
+        sponsor: "RAUM-IDEEN-RAUM ANDREA BLUM, Weil der Stadt",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K1903",
+      },
+      {
+        sponsor: "Larissas Nagelstudio, Weil der Stadt - Merklingen",
+        text: "1 Gutschein im Wert von 25,- €",
+        winner: "K1308",
+      },
+      {
+        sponsor: "Larissas Nagelstudio, Weil der Stadt - Merklingen",
+        text: "1 Gutschein im Wert von 25,- €",
+        winner: "K0556",
+      },
+      {
+        sponsor: "Larissas Nagelstudio, Weil der Stadt - Merklingen",
+        text: "1 Gutschein im Wert von 25,- €",
+        winner: "K1850",
+      },
+      {
+        sponsor: "Larissas Nagelstudio, Weil der Stadt - Merklingen",
+        text: "1 Gutschein im Wert von 25,- €",
+        winner: "K1873",
+      },
+      {
+        sponsor: "Autohaus Weeber GmbH, Weil der Stadt",
+        text:
+          " 1 VW Käfer von Playmobil – Limited Edition Für Fans und Sammler im Wert von 55,71 €",
+        winner: "K1750",
+      },
+    ],
   },
   {
     row: 5,
