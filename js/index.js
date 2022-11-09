@@ -31,7 +31,14 @@ const myApp = new Vue({
     },
 
     canOpenDoor: function(door) {
-      return this.urlParams.get('debug') == 'true' || (new Date().getMonth() == 11 && door.number <= new Date().getDate());
+      if (this.urlParams.get('debug') === 'true') {
+        console.log('debug mode');
+        return true;
+      }
+      var now = new Date();
+      var december = 11;
+      var january = 0;
+      return  (now.getMonth() == december || now.getMonth() == january) && door.number <= now.getDate();
     },
   },
   components: {
