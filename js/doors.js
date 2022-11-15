@@ -65,7 +65,48 @@ const doors = [
     row: 2,
     col: 1,
     number: "1",
-    prices: [],
+    prices: [
+    {
+      sponsor: "Kreissparkasse Böblingen",
+      text: "1 x Weiler Taler im Wert von 20,- €",
+      winner: "",
+    },
+    {
+      sponsor: "Kreissparkasse Böblingen",
+      text: "1 x Weiler Taler im Wert von 20,- €",
+      winner: "",
+    },
+    {
+      sponsor: "Kreissparkasse Böblingen",
+      text: "1 x Weiler Taler im Wert von 20,- €",
+      winner: "",
+    },
+    {
+      sponsor: "Kreissparkasse Böblingen",
+      text: "1 x Weiler Taler im Wert von 20,- €",
+      winner: "",
+    },
+    {
+      sponsor: "Kreissparkasse Böblingen",
+      text: "1 x Weiler Taler im Wert von 20,- €",
+      winner: "",
+    },
+    {
+      sponsor: "Kreissparkasse Böblingen",
+      text: "1 x Weiler Taler im Wert von 20,- €",
+      winner: "",
+    },
+    {
+      sponsor: "Kreissparkasse Böblingen",
+      text: "1 x Weiler Taler im Wert von 20,- €",
+      winner: "",
+    },
+    {
+      sponsor: "SZ/BZ - Sindelfinger Zeitung/Böblinger Zeitung",
+      text: "1 Gutschein für ein Halbjahres-Abo für die SZ/BZ-Digital im Wert von 149,- €",
+      winner: "",
+    }
+    ],
   },
   {
     row: 2,
