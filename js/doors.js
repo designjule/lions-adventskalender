@@ -130,7 +130,23 @@ const doors = [
     row: 1,
     col: 3,
     number: "8",
-    prices: [],
+    prices: [
+      {
+        sponsor: "KEVIN KUGEL Chocolaterie, Nufringen",
+        text: "1 Gutschein für 1 Pralinen-Workshop für 1 Person",
+        winner: "",
+      },
+      {
+        sponsor: "Rössle Reha, Weil der Stadt",
+        text: "Gutschein für 3 Monat Gerätetraining im Wert von 55,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Ristorante Pizzeria Da Nono, Weil der Stadt",
+        text: "1 Verzehrgutschein im Wert von 25,- €",
+        winner: "",
+      }
+    ],
   },
   {
     row: 2,
