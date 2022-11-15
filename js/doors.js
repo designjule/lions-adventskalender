@@ -11,7 +11,48 @@ const doors = [
     row: 0,
     col: 0,
     number: "15",
-    prices: [],
+    prices: [
+      {
+        sponsor: "BOPPEL MEDICAL ENGINEERING Weil der Stadt",
+        text: "1 Gutschein für eine Schlafuntersuchung Standard im Wert von 59,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Julianes natürlich schöne mode, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Julianes natürlich schöne mode, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Apero Event- und Weinkeller, Weil der Stadt",
+        text: "1 Genussgutschein im Wert von 30,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Apero Event- und Weinkeller, Weil der Stadt",
+        text: "1 Genussgutschein im Wert von 30,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      }
+    ],
   },
   {
     row: 0,
