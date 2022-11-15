@@ -124,7 +124,33 @@ const doors = [
     row: 1,
     col: 2,
     number: "10",
-    prices: [],
+    prices: [
+      {
+        sponsor: "Larissas Nagelstudio, Weil der Stadt - Merklingen",
+        text: "1 Gutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Larissas Nagelstudio, Weil der Stadt - Merklingen",
+        text: "1 Gutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Larissas Nagelstudio, Weil der Stadt - Merklingen",
+        text: "1 Gutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Larissas Nagelstudio, Weil der Stadt - Merklingen",
+        text: "1 Gutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Ernst Heller e.K. Gebäudeenergieberater, Weil der Stadt - Merklingen",
+        text: "1 Gutschein für eine Bauthermografie im Wert von 125,- €",
+        winner: "",
+      }
+    ],
   },
   {
     row: 1,
