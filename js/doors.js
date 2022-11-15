@@ -152,7 +152,18 @@ const doors = [
     row: 0,
     col: 3,
     number: "20",
-    prices: [],
+    prices: [
+      {
+        sponsor: "Benny Blanko Partystadl & Club, Sindelfingen",
+        text: "1 x Weiler Taler im Wert von 50,- €",
+        winner: "",
+      },
+      {
+        sponsor: "INNENARCHITEKTIN JACQUELINE MÖRK, Weil der Stadt",
+        text: "1 Gutschein für eine Einrichtungberatung oder Home Staging im Wert von 700,-Euro",
+        winner: "",
+      }
+    ],
   },
   {
     row: 1,
