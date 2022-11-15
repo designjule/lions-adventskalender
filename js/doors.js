@@ -366,7 +366,78 @@ const doors = [
     row: 2,
     col: 2,
     number: "24",
-    prices: [],
+    prices: [
+      {
+        sponsor: "NUSSBAUM MEDIEN, Weil der Stadt",
+        text: "1 Gutschein für eine private Kleinanzeige im Wert von max. 30,- €",
+        winner: "",
+      },
+      {
+        sponsor: "NUSSBAUM MEDIEN, Weil der Stadt",
+        text: "1 Gutschein für eine private Kleinanzeige im Wert von max. 30,- €",
+        winner: "",
+      },
+      {
+        sponsor: "NUSSBAUM MEDIEN, Weil der Stadt",
+        text: "1 Gutschein für eine private Kleinanzeige im Wert von max. 30,- €",
+        winner: "",
+      },
+      {
+        sponsor: "NUSSBAUM MEDIEN, Weil der Stadt",
+        text: "1 Gutschein für eine private Kleinanzeige im Wert von max. 30,- €",
+        winner: "",
+      },
+      {
+        sponsor: "NUSSBAUM MEDIEN, Weil der Stadt",
+        text: "1 Gutschein für eine private Kleinanzeige im Wert von max. 30,- €",
+        winner: "",
+      },
+      {
+        sponsor: "NUSSBAUM MEDIEN, Weil der Stadt",
+        text: "1 Gutschein für eine private Kleinanzeige im Wert von max. 30,- €",
+        winner: "",
+      },
+      {
+        sponsor: "NUSSBAUM MEDIEN, Weil der Stadt",
+        text: "1 Gutschein für eine private Kleinanzeige im Wert von max. 30,- €",
+        winner: "",
+      },
+      {
+        sponsor: "NUSSBAUM MEDIEN, Weil der Stadt",
+        text: "1 Gutschein für eine private Kleinanzeige im Wert von max. 30,- €",
+        winner: "",
+      },
+      {
+        sponsor: "NUSSBAUM MEDIEN, Weil der Stadt",
+        text: "1 Gutschein für eine private Kleinanzeige im Wert von max. 30,- €",
+        winner: "",
+      },
+      {
+        sponsor: "NUSSBAUM MEDIEN, Weil der Stadt",
+        text: "1 Gutschein für eine private Kleinanzeige im Wert von max. 30,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Derichsweiler Umzüge, Sindelfingen",
+        text: "1 x Weiler Taler im Wert von 100,- €",
+        winner: "",
+      },
+      {
+        sponsor: "HÄDECKE VERLAG, Weil der Stadt",
+        text: "2 Kochbücher<ul><li>Brotaufstriche vegan & vollwertig</li><li>Suppen, Aufläufe und Eintöpfe vegan & vollwertig</li></ul>im Gesamtwert von 25,60 €",
+        winner: "",
+      },
+      {
+        sponsor: "HÄDECKE VERLAG, Weil der Stadt",
+        text: "2 Bücher<ul><li>Trüffeltang, Ananas-Ameisen und die Fässer des Herrn Takahashi</li><li>Der kleine Restaurantkritiker, Notizbuch</li></ul>im Gesamtwert von 35,- €",
+        winner: "",
+      },
+      {
+        sponsor: "HÄDECKE VERLAG, Weil der Stadt",
+        text: "2 Kochbücher<ul><li>Knuspermüsli & Granola</li><li>Säfte & Smoothies</li></ul>im Gesamtwert von 25,90 €",
+        winner: "",
+      }
+    ],
   },
   {
     row: 2,
@@ -718,13 +789,100 @@ const doors = [
     row: 4,
     col: 3,
     number: "23",
-    prices: [],
+    prices: [
+      {
+        sponsor: "KÖRPERWERK Ergo I Physio I Fitness, Weil der Stadt - Merklingen",
+        text: "1 Gutschein für 1 Monate Training im Wert von je 59,- €",
+        winner: "",
+      },
+      {
+        sponsor: "KÖRPERWERK Ergo I Physio I Fitness, Weil der Stadt - Merklingen",
+        text: "1 Gutschein für 1 Monate Training im Wert von je 59,- €",
+        winner: "",
+      },
+      {
+        sponsor: "KÖRPERWERK Ergo I Physio I Fitness, Weil der Stadt - Merklingen",
+        text: "1 Gutschein für 1 Monate Training im Wert von je 59,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Kosmetikstudio Sabine Albrecht, Bad Liebenzell - Möttlingen",
+        text: "2 x 1 Verwöhngesichtsbehandlung im Wert von je 49,-€ ",
+        winner: "",
+      },
+      {
+        sponsor: "Kosmetikstudio Sabine Albrecht, Bad Liebenzell - Möttlingen",
+        text: "2 x 1 Verwöhngesichtsbehandlung im Wert von je 49,-€ ",
+        winner: "",
+      }
+    ],
   },
   {
     row: 5,
     col: 0,
     number: "22",
-    prices: [],
+    prices: [
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Hotel Nachtquartier Weil der Stadt-Merklingen",
+        text: "Gutschein für 1 x Frühstücksbuffet für 2 Personen",
+        winner: "",
+      }
+    ],
   },
   {
     row: 5,
