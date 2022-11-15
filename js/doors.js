@@ -332,7 +332,48 @@ const doors = [
     row: 3,
     col: 1,
     number: "14",
-    prices: [],
+    prices: [
+      {
+        sponsor: "BOPPEL MEDICAL ENGINEERING Weil der Stadt",
+        text: "1 Gutschein für eine Schlafuntersuchung Standard im Wert von 59,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Diefenbach Bäckerei & Konditorei, Weil der Stadt",
+        text: "1 Backwaren-Gutschein im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Parkrestaurant Stadthalle Sindelfingen",
+        text: "1 Gutschein für ein Essen für 2 Personen",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      }
+    ],
   },
   {
     row: 3,
