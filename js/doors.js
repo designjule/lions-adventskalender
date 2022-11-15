@@ -472,7 +472,28 @@ const doors = [
     row: 5,
     col: 1,
     number: "12",
-    prices: [],
+    prices: [
+      {
+        sponsor: "FIT AVENUE, Weil der Stadt",
+        text: "Gutschein für einen All-inclusive Trainingsmonat",
+        winner: "",
+      },
+      {
+        sponsor: "FIT AVENUE, Weil der Stadt",
+        text: "Gutschein für einen All-inclusive Trainingsmonat",
+        winner: "",
+      },
+      {
+        sponsor: "EINE-WELT-LADEN, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Familie Fiedler, Leonberg",
+        text: "1 Bosch Temperaturmessgerät UniversalTemp im Wert von 40,- €",
+        winner: "",
+      }
+    ],
   },
   {
     row: 5,
