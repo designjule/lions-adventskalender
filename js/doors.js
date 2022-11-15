@@ -555,7 +555,43 @@ const doors = [
     row: 4,
     col: 0,
     number: "18",
-    prices: [],
+    prices: [
+      {
+        sponsor: "Ernst Heller e.K. Gebäudeenergieberater, Weil der Stadt - Merklingen",
+        text: "1 Gutschein für eine Bauthermografie im Wert von 125,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Radhaus Weber, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Radhaus Weber, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Radhaus Weber, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Radhaus Weber, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Radhaus Weber, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Sabine Schreiber Fotografie, Weil der Stadt",
+        text: "1 Gutschein für Passfotos im Wert von 18,- €",
+        winner: "",
+      }
+    ],
   },
   {
     row: 4,
