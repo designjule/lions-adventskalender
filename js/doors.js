@@ -158,7 +158,28 @@ const doors = [
     row: 1,
     col: 0,
     number: "19",
-    prices: [],
+    prices: [
+      {
+        sponsor: "Landgasthof 1610, Weil der Stadt - Merklingen",
+        text: "1 Verzehrgutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Landgasthof 1610, Weil der Stadt - Merklingen",
+        text: "1 Verzehrgutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "FLEMMIG'S FLAKON, Weil der Stadt",
+        text: "1 Kosmetikbehandlungsgutschein im Wert von 45,- €",
+        winner: "",
+      },
+      {
+        sponsor: "INNENARCHITEKTIN JACQUELINE MÖRK, Weil der Stadt",
+        text: "1 Gutschein für eine Einrichtungberatung oder Home Staging im Wert von 700,-Euro",
+        winner: "",
+      }
+    ],
   },
   {
     row: 1,
