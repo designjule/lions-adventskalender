@@ -17,7 +17,38 @@ const doors = [
     row: 0,
     col: 1,
     number: "2",
-    prices: [],
+    prices: [
+      {
+        sponsor: "SZ/BZ - Sindelfinger Zeitung/Böblinger Zeitung",
+        text: "1 Gutschein für ein Halbjahres-Abo für die SZ/BZ-Digital im Wert von 149,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Bäckerei & Konditorei Raisch GmbH & Co. KG, Weil der Stadt",
+        text: "4 Gutscheine im Gesamtwert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mosterei Franz Decker, Weil der Stadt",
+        text: "1 Gutschein für 3 Pack Weil der Städter Apfelsaft (5 Liter Bag in Box)",
+        winner: "",
+      },
+      {
+        sponsor: "Mosterei Franz Decker, Weil der Stadt",
+        text: "1 Gutschein für 3 Pack Weil der Städter Apfelsaft (5 Liter Bag in Box)",
+        winner: "",
+      },
+      {
+        sponsor: "Mosterei Franz Decker, Weil der Stadt",
+        text: "1 Gutschein für 3 Pack Weil der Städter Apfelsaft (5 Liter Bag in Box)",
+        winner: "",
+      },
+      {
+        sponsor: "Mosterei Franz Decker, Weil der Stadt",
+        text: "1 Gutschein für 3 Pack Weil der Städter Apfelsaft (5 Liter Bag in Box)",
+        winner: "",
+      }
+    ],
   },
   {
     row: 0,
