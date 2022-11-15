@@ -212,7 +212,38 @@ const doors = [
     row: 3,
     col: 0,
     number: "7",
-    prices: [],
+    prices: [
+      {
+        sponsor: "KEVIN KUGEL® CHOCOLATIER, Sindelfingen",
+        text: "1 Einkaufsgutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "KEVIN KUGEL® CHOCOLATIER, Sindelfingen",
+        text: "1 Einkaufsgutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "KEVIN KUGEL® CHOCOLATIER, Sindelfingen",
+        text: "1 Einkaufsgutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "KEVIN KUGEL® CHOCOLATIER, Sindelfingen",
+        text: "1 Gutschein für 1 Pralinen-Workshop für 1 Person",
+        winner: "",
+      },
+      {
+        sponsor: "Stadt Weil der Stadt",
+        text: "1 x Weiler Taler im Wert von 50,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Schreinerei Lutz, Weil der Stadt - Merlingen",
+        text: "1 x Weiler Taler im Wert von 30,- €",
+        winner: "",
+      },
+    ],
   },
   {
     row: 3,
