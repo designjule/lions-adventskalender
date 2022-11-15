@@ -691,7 +691,28 @@ const doors = [
     row: 4,
     col: 2,
     number: "21",
-    prices: [],
+    prices: [
+      {
+        sponsor: "WIDMAIER AUGENOPTIK JUWELIER, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Gasthaus zum Stern, Weil der Stadt",
+        text: "1 Verzehrgutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Gasthaus zum Stern, Weil der Stadt",
+        text: "1 Verzehrgutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "engesser marketing gmbh, Weil der Stadt",
+        text: "2 x Tickets für „Das Escape Dinner“",
+        winner: "",
+      },
+    ],
   },
   {
     row: 4,
