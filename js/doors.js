@@ -72,7 +72,53 @@ const doors = [
     row: 1,
     col: 1,
     number: "4",
-    prices: [],
+    prices: [
+      {
+        sponsor: "Vibratec Verdichtungstechnik GmbH, Weil der Stadt",
+        text: "1 x Weiler Taler im Wert von 50,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Vibratec Verdichtungstechnik GmbH, Weil der Stadt",
+        text: "1 x Weiler Taler im Wert von 50,- €",
+        winner: "",
+      },
+      {
+        sponsor: "STADT-APOTHEKE AM NARRENBRUNNEN, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "STADT-APOTHEKE AM NARRENBRUNNEN, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "STADT-APOTHEKE AM NARRENBRUNNEN, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "STADT-APOTHEKE AM NARRENBRUNNEN, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "STADT-APOTHEKE AM NARRENBRUNNEN, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "KEVIN KUGEL® CHOCOLATIER, Sindelfingen",
+        text: "1 Einkaufsgutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "KEVIN KUGEL® CHOCOLATIER, Sindelfingen",
+        text: "1 Einkaufsgutschein im Wert von 25,- €",
+        winner: "",
+      }
+    ],
   },
   {
     row: 1,
@@ -90,7 +136,18 @@ const doors = [
     row: 2,
     col: 0,
     number: "3",
-    prices: [],
+    prices: [
+    {
+      sponsor: "Scheurer & Decker Steuerberater, Leonberg",
+      text: "Gutschein für eine Einkommensteuererklärung",
+      winner: "",
+    },
+    {
+      sponsor: "BOPPEL MEDICAL ENGINEERING Weil der Stadt",
+      text: "1 Gutschein für eine Schlafuntersuchung Standard im Wert von 59,- €",
+      winner: "",
+    }
+    ],
   },
   {
     row: 2,

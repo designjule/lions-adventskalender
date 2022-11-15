@@ -31,7 +31,7 @@ const myApp = new Vue({
     },
 
     canOpenDoor: function(door) {
-      if (this.urlParams.get('debug') === 'true') {
+      if (location.hostname === "localhost" || this.urlParams.get('debug') === 'true') {
         console.log('debug mode');
         return true;
       }
