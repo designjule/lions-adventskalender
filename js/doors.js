@@ -471,7 +471,43 @@ const doors = [
     row: 3,
     col: 2,
     number: "17",
-    prices: [],
+    prices: [
+      {
+        sponsor: "WIDMAIER AUGENOPTIK JUWELIER, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "WIDMAIER AUGENOPTIK JUWELIER, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "CORRADO IMBISS, Weil der Stadt",
+        text: "1 Verzehrgutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "GOFIT…mein Studio, Weil der Stadt - Merklingen",
+        text: "1 Gutschein für 1 Monat Fitness-Wellness-Kurse im Wert von 40,- €",
+        winner: "",
+      },
+      {
+        sponsor: "GOFIT…mein Studio, Weil der Stadt - Merklingen",
+        text: "1 Gutschein für 1 Monat Fitness-Wellness-Kurse im Wert von 40,- €",
+        winner: "",
+      },
+      {
+        sponsor: "GOFIT…mein Studio, Weil der Stadt - Merklingen",
+        text: "1 Gutschein für 1 Monat Fitness-Wellness-Kurse im Wert von 40,- €",
+        winner: "",
+      },
+      {
+        sponsor: "GOFIT…mein Studio, Weil der Stadt - Merklingen",
+        text: "1 Gutschein für 1 Monat Fitness-Wellness-Kurse im Wert von 40,- €",
+        winner: "",
+      }
+    ],
   },
   {
     row: 3,
