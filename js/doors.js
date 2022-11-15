@@ -95,7 +95,58 @@ const doors = [
     row: 0,
     col: 2,
     number: "16",
-    prices: [],
+    prices: [
+      {
+        sponsor: "BOPPEL MEDICAL ENGINEERING Weil der Stadt",
+        text: "1 Gutschein für eine Schlafuntersuchung Standard im Wert von 59,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Hechtbräu KG, Weil der Stadt",
+        text: "1 Verzehrgutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Hechtbräu KG, Weil der Stadt",
+        text: "1 Verzehrgutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Jürgen Roeßle Versicherungsbüro, Weil der Stadt - Merklingen",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Mitglieder des Lions Club Johannes Kepler",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      }
+    ],
   },
   {
     row: 0,
