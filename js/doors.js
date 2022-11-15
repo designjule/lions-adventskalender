@@ -248,7 +248,48 @@ const doors = [
     row: 2,
     col: 3,
     number: "11",
-    prices: [],
+    prices: [
+      {
+        sponsor: "KEVIN KUGEL® CHOCOLATIER, Sindelfingen",
+        text: "1 Einkaufsgutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "KEVIN KUGEL® CHOCOLATIER, Sindelfingen",
+        text: "1 Einkaufsgutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "KEVIN KUGEL® CHOCOLATIER, Sindelfingen",
+        text: "1 Einkaufsgutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "KEVIN KUGEL® CHOCOLATIER, Sindelfingen",
+        text: "1 Einkaufsgutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "FIT AVENUE, Weil der Stadt",
+        text: "Gutschein für einen All-inclusive Trainingsmonat",
+        winner: "",
+      },
+      {
+        sponsor: "Fruchtkörble, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Fruchtkörble, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Metzgerei Heinkele und Partyservice , Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "",
+      }
+    ],
   },
   {
     row: 3,
