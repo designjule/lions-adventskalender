@@ -526,6 +526,22 @@ const doors = [
     row: 5,
     col: 3,
     number: "13",
-    prices: [],
+    prices: [
+      {
+        sponsor: "Ernst Heller e.K. Gebäudeenergieberater, Weil der Stadt - Merklingen",
+        text: "1 Gutschein für eine Bauthermografie im Wert von 125,- €",
+        winner: "",
+      },
+      {
+        sponsor: "QuerPass, Holzgerlingen",
+        text: "1 Kalas Weinkühler im Wert von 49,95 €",
+        winner: "",
+      },
+      {
+        sponsor: "Lichtblick Kommunikation, Leonberg",
+        text: "1 x Weiler Taler im Wert von 50,- €",
+        winner: "",
+      }
+    ],
   },
 ];
