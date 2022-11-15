@@ -242,7 +242,63 @@ const doors = [
     row: 4,
     col: 1,
     number: "5",
-    prices: [],
+    prices: [
+      {
+        sponsor: "Kreissparkasse Böblingen",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Kreissparkasse Böblingen",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Kreissparkasse Böblingen",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "RAUM-IDEEN-RAUM ANDREA BLUM, Weil der Stadt",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "RAUM-IDEEN-RAUM ANDREA BLUM, Weil der Stadt",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "RAUM-IDEEN-RAUM ANDREA BLUM, Weil der Stadt",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "RAUM-IDEEN-RAUM ANDREA BLUM, Weil der Stadt",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "RAUM-IDEEN-RAUM ANDREA BLUM, Weil der Stadt",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Lufthansa City Center Reisebüro Reeg GmbH, Weil der Stadt",
+        text: "1 Reisegutschein im Wert von 50,- €",
+        winner: "",
+      },
+      {
+        sponsor: "KEVIN KUGEL® CHOCOLATIER, Sindelfingen",
+        text: "1 Einkaufsgutschein im Wert von 25,- €",
+        winner: "",
+      },
+      {
+        sponsor: "KEVIN KUGEL® CHOCOLATIER, Sindelfingen",
+        text: "1 Einkaufsgutschein im Wert von 25,- €",
+        winner: "",
+      }
+    ],
   },
   {
     row: 4,
