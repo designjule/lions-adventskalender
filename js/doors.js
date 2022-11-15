@@ -411,7 +411,28 @@ const doors = [
     row: 5,
     col: 2,
     number: "9",
-    prices: [],
+    prices: [
+      {
+        sponsor: "Bekleidungshaus Friedrich Schirott, Weil der Stadt am Rathaus",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "Bekleidungshaus Friedrich Schirott, Weil der Stadt am Rathaus",
+        text: "1 Einkaufsgutschein im Wert von 20,- €",
+        winner: "",
+      },
+      {
+        sponsor: "FIT AVENUE, Weil der Stadt",
+        text: "Gutschein für einen All-inclusive Trainingsmonat",
+        winner: "",
+      },
+      {
+        sponsor: "FIT AVENUE, Weil der Stadt",
+        text: "Gutschein für einen All-inclusive Trainingsmonat",
+        winner: "",
+      }
+    ],
   },
   {
     row: 5,
