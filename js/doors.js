@@ -88,6 +88,11 @@ const doors = [
         sponsor: "Mosterei Franz Decker, Weil der Stadt",
         text: "1 Gutschein für 3 Pack Weil der Städter Apfelsaft (5 Liter Bag in Box)",
         winner: "",
+      },
+      {
+        sponsor: "HÄDECKE VERLAG, Weil der Stadt",
+        text: "Buch „BAO & Dim Sum“ im Wert von 26,- €",
+        winner: "",
       }
     ],
   },
@@ -241,6 +246,11 @@ const doors = [
         sponsor: "KEVIN KUGEL® CHOCOLATIER, Sindelfingen",
         text: "1 Einkaufsgutschein im Wert von 25,- €",
         winner: "",
+      },
+      {
+        sponsor: "HÄDECKE VERLAG, Weil der Stadt",
+        text: "Buch „Meine vegane Bäckerei“ im Wert von 24,-€",
+        winner: "",
       }
     ],
   },
@@ -312,6 +322,11 @@ const doors = [
       sponsor: "BOPPEL MEDICAL ENGINEERING Weil der Stadt",
       text: "1 Gutschein für eine Schlafuntersuchung Standard im Wert von 59,- €",
       winner: "",
+    },
+    {
+      sponsor: "HÄDECKE VERLAG, Weil der Stadt",
+      text: "2 Bücher<br />„Heiße Schokolade“<br />„Crackers & Grissini“<br />im Gesamtwert von 28,- €",
+      winner: "",
     }
     ],
   },
@@ -358,6 +373,11 @@ const doors = [
     {
       sponsor: "SZ/BZ - Sindelfinger Zeitung/Böblinger Zeitung",
       text: "1 Gutschein für ein Halbjahres-Abo für die SZ/BZ-Digital im Wert von 149,- €",
+      winner: "",
+    },
+    {
+      sponsor: "HÄDECKE VERLAG, Weil der Stadt",
+      text: "Buch „Frühstücksglück“ im Wert von 26,- €",
       winner: "",
     }
     ],
