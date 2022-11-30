@@ -338,47 +338,47 @@ const doors = [
     {
       sponsor: "Kreissparkasse Böblingen",
       text: "1 x Weiler Taler im Wert von 20,- €",
-      winner: "",
+      winner: "K0562",
     },
     {
       sponsor: "Kreissparkasse Böblingen",
       text: "1 x Weiler Taler im Wert von 20,- €",
-      winner: "",
+      winner: "K1508",
     },
     {
       sponsor: "Kreissparkasse Böblingen",
       text: "1 x Weiler Taler im Wert von 20,- €",
-      winner: "",
+      winner: "K1854",
     },
     {
       sponsor: "Kreissparkasse Böblingen",
       text: "1 x Weiler Taler im Wert von 20,- €",
-      winner: "",
+      winner: "K0464",
     },
     {
       sponsor: "Kreissparkasse Böblingen",
       text: "1 x Weiler Taler im Wert von 20,- €",
-      winner: "",
+      winner: "K2351",
     },
     {
       sponsor: "Kreissparkasse Böblingen",
       text: "1 x Weiler Taler im Wert von 20,- €",
-      winner: "",
+      winner: "K1199",
     },
     {
       sponsor: "Kreissparkasse Böblingen",
       text: "1 x Weiler Taler im Wert von 20,- €",
-      winner: "",
+      winner: "K0674",
     },
     {
       sponsor: "SZ/BZ - Sindelfinger Zeitung/Böblinger Zeitung",
       text: "1 Gutschein für ein Halbjahres-Abo für die SZ/BZ-Digital im Wert von 149,- €",
-      winner: "",
+      winner: "K1844",
     },
     {
       sponsor: "HÄDECKE VERLAG, Weil der Stadt",
       text: "Buch „Frühstücksglück“ im Wert von 26,- €",
-      winner: "",
+      winner: "K2205",
     }
     ],
   },
