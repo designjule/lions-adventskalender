@@ -171,12 +171,12 @@ const doors = [
       {
         sponsor: "Benny Blanko Partystadl & Club, Sindelfingen",
         text: "1 x Weiler Taler im Wert von 50,- €",
-        winner: "",
+        winner: "K0692",
       },
       {
         sponsor: "INNENARCHITEKTIN JACQUELINE MÖRK, Weil der Stadt",
         text: "1 Gutschein für eine Einrichtungberatung oder Home Staging im Wert von 700,-Euro",
-        winner: "",
+        winner: "K0404",
       }
     ],
   },
@@ -188,22 +188,22 @@ const doors = [
       {
         sponsor: "Landgasthof 1610, Weil der Stadt - Merklingen",
         text: "1 Verzehrgutschein im Wert von 25,- €",
-        winner: "",
+        winner: "K0967",
       },
       {
         sponsor: "Landgasthof 1610, Weil der Stadt - Merklingen",
         text: "1 Verzehrgutschein im Wert von 25,- €",
-        winner: "",
+        winner: "K1658",
       },
       {
         sponsor: "FLEMMIG'S FLAKON, Weil der Stadt",
         text: "1 Kosmetikbehandlungsgutschein im Wert von 45,- €",
-        winner: "",
+        winner: "K0012",
       },
       {
         sponsor: "INNENARCHITEKTIN JACQUELINE MÖRK, Weil der Stadt",
         text: "1 Gutschein für eine Einrichtungberatung oder Home Staging im Wert von 700,-Euro",
-        winner: "",
+        winner: "K1603"
       }
     ],
   },
@@ -410,72 +410,72 @@ const doors = [
       {
         sponsor: "NUSSBAUM MEDIEN, Weil der Stadt",
         text: "1 Gutschein für eine private Kleinanzeige im Wert von max. 30,- €",
-        winner: "",
+        winner: "K1987",
       },
       {
         sponsor: "NUSSBAUM MEDIEN, Weil der Stadt",
         text: "1 Gutschein für eine private Kleinanzeige im Wert von max. 30,- €",
-        winner: "",
+        winner: "K0080",
       },
       {
         sponsor: "NUSSBAUM MEDIEN, Weil der Stadt",
         text: "1 Gutschein für eine private Kleinanzeige im Wert von max. 30,- €",
-        winner: "",
+        winner: "K1428",
       },
       {
         sponsor: "NUSSBAUM MEDIEN, Weil der Stadt",
         text: "1 Gutschein für eine private Kleinanzeige im Wert von max. 30,- €",
-        winner: "",
+        winner: "K2308",
       },
       {
         sponsor: "NUSSBAUM MEDIEN, Weil der Stadt",
         text: "1 Gutschein für eine private Kleinanzeige im Wert von max. 30,- €",
-        winner: "",
+        winner: "K1278",
       },
       {
         sponsor: "NUSSBAUM MEDIEN, Weil der Stadt",
         text: "1 Gutschein für eine private Kleinanzeige im Wert von max. 30,- €",
-        winner: "",
+        winner: "K1006",
       },
       {
         sponsor: "NUSSBAUM MEDIEN, Weil der Stadt",
         text: "1 Gutschein für eine private Kleinanzeige im Wert von max. 30,- €",
-        winner: "",
+        winner: "K0916",
       },
       {
         sponsor: "NUSSBAUM MEDIEN, Weil der Stadt",
         text: "1 Gutschein für eine private Kleinanzeige im Wert von max. 30,- €",
-        winner: "",
+        winner: "K1595",
       },
       {
         sponsor: "NUSSBAUM MEDIEN, Weil der Stadt",
         text: "1 Gutschein für eine private Kleinanzeige im Wert von max. 30,- €",
-        winner: "",
+        winner: "K0999",
       },
       {
         sponsor: "NUSSBAUM MEDIEN, Weil der Stadt",
         text: "1 Gutschein für eine private Kleinanzeige im Wert von max. 30,- €",
-        winner: "",
+        winner: "K0875",
       },
       {
         sponsor: "Derichsweiler Umzüge, Sindelfingen",
         text: "1 x Weiler Taler im Wert von 100,- €",
-        winner: "",
+        winner: "K0184",
       },
       {
         sponsor: "HÄDECKE VERLAG, Weil der Stadt",
-        text: "2 Kochbücher<ul><li>Brotaufstriche vegan & vollwertig</li><li>Suppen, Aufläufe und Eintöpfe vegan & vollwertig</li></ul>im Gesamtwert von 25,60 €",
-        winner: "",
+        text: "2 Bücher<ul><li>Brotaufstriche vegan & vollwertig</li><li>Suppen, Aufläufe und Eintöpfe vegan & vollwertig</li></ul>im Gesamtwert von 28,-€",
+        winner: "K0785",
       },
       {
         sponsor: "HÄDECKE VERLAG, Weil der Stadt",
         text: "2 Bücher<ul><li>Trüffeltang, Ananas-Ameisen und die Fässer des Herrn Takahashi</li><li>Der kleine Restaurantkritiker, Notizbuch</li></ul>im Gesamtwert von 35,- €",
-        winner: "",
+        winner: "K0914",
       },
       {
         sponsor: "HÄDECKE VERLAG, Weil der Stadt",
-        text: "2 Kochbücher<ul><li>Knuspermüsli & Granola</li><li>Säfte & Smoothies</li></ul>im Gesamtwert von 25,90 €",
-        winner: "",
+        text: "2 Bücher<ul><li>Knuspermüsli & Granola</li><li>Säfte & Smoothies</li></ul>im Gesamtwert von 28,-€",
+        winner: "K0636"
       }
     ],
   },
@@ -633,37 +633,47 @@ const doors = [
       {
         sponsor: "WIDMAIER AUGENOPTIK JUWELIER, Weil der Stadt",
         text: "1 Einkaufsgutschein im Wert von 20,- €",
-        winner: "",
+        winner: "K1533",
       },
       {
         sponsor: "WIDMAIER AUGENOPTIK JUWELIER, Weil der Stadt",
         text: "1 Einkaufsgutschein im Wert von 20,- €",
-        winner: "",
+        winner: "K2190",
       },
       {
         sponsor: "CORRADO IMBISS, Weil der Stadt",
         text: "1 Verzehrgutschein im Wert von 25,- €",
-        winner: "",
+        winner: "K0053",
       },
       {
         sponsor: "GOFIT…mein Studio, Weil der Stadt - Merklingen",
         text: "1 Gutschein für 1 Monat Fitness-Wellness-Kurse im Wert von 40,- €",
-        winner: "",
+        winner: "K0196",
       },
       {
         sponsor: "GOFIT…mein Studio, Weil der Stadt - Merklingen",
         text: "1 Gutschein für 1 Monat Fitness-Wellness-Kurse im Wert von 40,- €",
-        winner: "",
+        winner: "K1320",
       },
       {
         sponsor: "GOFIT…mein Studio, Weil der Stadt - Merklingen",
         text: "1 Gutschein für 1 Monat Fitness-Wellness-Kurse im Wert von 40,- €",
-        winner: "",
+        winner: "K1123",
       },
       {
         sponsor: "GOFIT…mein Studio, Weil der Stadt - Merklingen",
         text: "1 Gutschein für 1 Monat Fitness-Wellness-Kurse im Wert von 40,- €",
-        winner: "",
+        winner: "K1738",
+      },
+      {
+        sponsor: "café konditorei KÖNIGSTOR, Weil der Stadt",
+        text: "1 Verzehrgutschein im Wert von 25,- €",
+        winner: "K0084",
+      },
+      {
+        sponsor: "Autohaus Weeber, Weil der Stadt",
+        text: "1 Gutschein für die Waschanlage im Wert von je 25,- €",
+        winner: "K2326"
       }
     ],
   },
@@ -722,37 +732,42 @@ const doors = [
       {
         sponsor: "Ernst Heller e.K. Gebäudeenergieberater, Weil der Stadt - Merklingen",
         text: "1 Gutschein für eine Bauthermografie im Wert von 125,- €",
-        winner: "",
+        winner: "K1609",
       },
       {
         sponsor: "Radhaus Weber, Weil der Stadt",
         text: "1 Einkaufsgutschein im Wert von 20,- €",
-        winner: "",
+        winner: "K1746",
       },
       {
         sponsor: "Radhaus Weber, Weil der Stadt",
         text: "1 Einkaufsgutschein im Wert von 20,- €",
-        winner: "",
+        winner: "K1726",
       },
       {
         sponsor: "Radhaus Weber, Weil der Stadt",
         text: "1 Einkaufsgutschein im Wert von 20,- €",
-        winner: "",
+        winner: "K1146",
       },
       {
         sponsor: "Radhaus Weber, Weil der Stadt",
         text: "1 Einkaufsgutschein im Wert von 20,- €",
-        winner: "",
+        winner: "K1282",
       },
       {
         sponsor: "Radhaus Weber, Weil der Stadt",
         text: "1 Einkaufsgutschein im Wert von 20,- €",
-        winner: "",
+        winner: "K0428",
       },
       {
         sponsor: "Sabine Schreiber Fotografie, Weil der Stadt",
         text: "1 Gutschein für Passfotos im Wert von 18,- €",
-        winner: "",
+        winner: "K1605",
+      },
+      {
+        sponsor: "Autohaus Weeber, Weil der Stadt",
+        text: "1 Gutschein für die Waschanlage im Wert von je 25,- €",
+        winner: "K1690"
       }
     ],
   },
@@ -836,23 +851,28 @@ const doors = [
       {
         sponsor: "WIDMAIER AUGENOPTIK JUWELIER, Weil der Stadt",
         text: "1 Einkaufsgutschein im Wert von 20,- €",
-        winner: "",
+        winner: "K0129",
       },
       {
         sponsor: "Gasthaus zum Stern, Weil der Stadt",
         text: "1 Verzehrgutschein im Wert von 25,- €",
-        winner: "",
+        winner: "K1328",
       },
       {
         sponsor: "Gasthaus zum Stern, Weil der Stadt",
         text: "1 Verzehrgutschein im Wert von 25,- €",
-        winner: "",
+        winner: "K2135",
       },
       {
         sponsor: "engesser marketing gmbh, Weil der Stadt",
         text: "2 x Tickets für „Das Escape Dinner“",
-        winner: "",
+        winner: "K1601",
       },
+      {
+        sponsor: "Autohaus Weeber, Weil der Stadt",
+        text: "1 Gutschein für die Waschanlage im Wert von je 25,- €",
+        winner: "K0408",
+      }
     ],
   },
   {
@@ -863,27 +883,32 @@ const doors = [
       {
         sponsor: "KÖRPERWERK Ergo I Physio I Fitness, Weil der Stadt - Merklingen",
         text: "1 Gutschein für 1 Monate Training im Wert von je 59,- €",
-        winner: "",
+        winner: "K1663",
       },
       {
         sponsor: "KÖRPERWERK Ergo I Physio I Fitness, Weil der Stadt - Merklingen",
         text: "1 Gutschein für 1 Monate Training im Wert von je 59,- €",
-        winner: "",
+        winner: "K1350",
       },
       {
         sponsor: "KÖRPERWERK Ergo I Physio I Fitness, Weil der Stadt - Merklingen",
         text: "1 Gutschein für 1 Monate Training im Wert von je 59,- €",
-        winner: "",
+        winner: "K0183",
       },
       {
         sponsor: "Kosmetikstudio Sabine Albrecht, Bad Liebenzell - Möttlingen",
-        text: "2 x 1 Verwöhngesichtsbehandlung im Wert von je 49,-€ ",
-        winner: "",
+        text: "1 Verwöhngesichtsbehandlung",
+        winner: "K1362",
       },
       {
         sponsor: "Kosmetikstudio Sabine Albrecht, Bad Liebenzell - Möttlingen",
-        text: "2 x 1 Verwöhngesichtsbehandlung im Wert von je 49,-€ ",
-        winner: "",
+        text: "1 Verwöhngesichtsbehandlung",
+        winner: "K1437",
+      },
+      {
+        sponsor: "ELLYS Tee & Kaffeeladen & Bistro, Renningen",
+        text: "1 Gutschein im Wert von 20,- €",
+        winner: "K0461"
       }
     ],
   },
@@ -895,62 +920,67 @@ const doors = [
       {
         sponsor: "Mitglieder des Lions Club Johannes Kepler",
         text: "1 x Weiler Taler im Wert von 20,- €",
-        winner: "",
+        winner: "K1520",
       },
       {
         sponsor: "Mitglieder des Lions Club Johannes Kepler",
         text: "1 x Weiler Taler im Wert von 20,- €",
-        winner: "",
+        winner: "K1177",
       },
       {
         sponsor: "Mitglieder des Lions Club Johannes Kepler",
         text: "1 x Weiler Taler im Wert von 20,- €",
-        winner: "",
+        winner: "K0551",
       },
       {
         sponsor: "Mitglieder des Lions Club Johannes Kepler",
         text: "1 x Weiler Taler im Wert von 20,- €",
-        winner: "",
+        winner: "K1568",
       },
       {
         sponsor: "Mitglieder des Lions Club Johannes Kepler",
         text: "1 x Weiler Taler im Wert von 20,- €",
-        winner: "",
+        winner: "K0159",
       },
       {
         sponsor: "Mitglieder des Lions Club Johannes Kepler",
         text: "1 x Weiler Taler im Wert von 20,- €",
-        winner: "",
+        winner: "K0417",
       },
       {
         sponsor: "Mitglieder des Lions Club Johannes Kepler",
         text: "1 x Weiler Taler im Wert von 20,- €",
-        winner: "",
+        winner: "K1360",
       },
       {
         sponsor: "Mitglieder des Lions Club Johannes Kepler",
         text: "1 x Weiler Taler im Wert von 20,- €",
-        winner: "",
+        winner: "K1687",
       },
       {
         sponsor: "Mitglieder des Lions Club Johannes Kepler",
         text: "1 x Weiler Taler im Wert von 20,- €",
-        winner: "",
+        winner: "K1356",
       },
       {
         sponsor: "Mitglieder des Lions Club Johannes Kepler",
         text: "1 x Weiler Taler im Wert von 20,- €",
-        winner: "",
+        winner: "K0380",
       },
       {
         sponsor: "Mitglieder des Lions Club Johannes Kepler",
         text: "1 x Weiler Taler im Wert von 20,- €",
-        winner: "",
+        winner: "K0787",
       },
       {
         sponsor: "Hotel Nachtquartier Weil der Stadt-Merklingen",
         text: "Gutschein für 1 x Frühstücksbuffet für 2 Personen",
-        winner: "",
+        winner: "K1376",
+      },
+      {
+        sponsor: "Autohaus Weeber, Weil der Stadt",
+        text: "1 Gutschein für die Waschanlage im Wert von je 25,- €",
+        winner: "K1650"
       }
     ],
   },
