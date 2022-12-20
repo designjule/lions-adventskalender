@@ -202,7 +202,7 @@ const doors = [
       },
       {
         sponsor: "INNENARCHITEKTIN JACQUELINE MÖRK, Weil der Stadt",
-        text: "1 Gutschein für eine Einrichtungberatung oder Home Staging im Wert von 700,-Euro",
+        text: "1 Gutschein für eine Einrichtungberatung oder Home Staging im Wert von 750,-Euro",
         winner: "K1603"
       }
     ],
