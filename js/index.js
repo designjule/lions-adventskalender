@@ -38,7 +38,7 @@ const myApp = new Vue({
       var now = new Date();
       var december = 11;
       var january = 0;
-      return  (now.getMonth() == december || now.getMonth() == january) && door.number <= now.getDate();
+      return  (now.getMonth() == december && door.number <= now.getDate()) || now.getMonth() == january;
     },
   },
   components: {
