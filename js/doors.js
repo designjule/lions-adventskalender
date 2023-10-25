@@ -13,7 +13,7 @@ const doors = [
     number: "15",
     prices: [
       {
-        sponsor: "BOPPEL MEDICAL ENGINEERING Weil der Stadt",
+        sponsor: "BOPPEL MEDICAL ENGINEERING Weil der Stadt NEU",
         text: "1 Gutschein für eine Schlafuntersuchung Standard im Wert von 59,- €",
         winner: "K0110",
       },
