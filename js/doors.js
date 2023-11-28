@@ -13,50 +13,30 @@ const doors = [
     number: "15",
     prices: [
       {
-        sponsor: "BOPPEL MEDICAL ENGINEERING Weil der Stadt NEU",
-        text: "1 Gutschein für eine Schlafuntersuchung Standard im Wert von 59,- €",
+        sponsor: "Design Optik Jacqueline Holfeld, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 50,- €",
         winner: "K0110",
       },
       {
-        sponsor: "Julianes natürlich schöne mode, Weil der Stadt",
-        text: "1 Einkaufsgutschein im Wert von 25,- €",
+        sponsor: "Design Optik Jacqueline Holfeld, Weil der Stadt",
+        text: "1 Einkaufsgutschein im Wert von 50,- €",
+        winner: "K0110",
+      },
+      {
+        sponsor: "Ernst Heller e.K. Gebäudeenergieberater, Weil der Stadt-Merklingen",
+        text: "1 Gutschein für eine Bauthermografie im Wert von 125,- €",
         winner: "K0410",
       },
       {
-        sponsor: "Julianes natürlich schöne mode, Weil der Stadt",
-        text: "1 Einkaufsgutschein im Wert von 25,- €",
-        winner: "K0307",
+        sponsor: "Ernst Heller e.K. Gebäudeenergieberater, Weil der Stadt-Merklingen",
+        text: "1 Gutschein für eine Bauthermografie im Wert von 125,- €",
+        winner: "K0410",
       },
       {
-        sponsor: "Apero Event- und Weinkeller, Weil der Stadt",
-        text: "1 Genussgutschein im Wert von 30,- €",
-        winner: "K0071",
+        sponsor: "Ernst Heller e.K. Gebäudeenergieberater, Weil der Stadt-Merklingen",
+        text: "1 Gutschein für eine Bauthermografie im Wert von 125,- €",
+        winner: "K0410",
       },
-      {
-        sponsor: "Apero Event- und Weinkeller, Weil der Stadt",
-        text: "1 Genussgutschein im Wert von 30,- €",
-        winner: "K0887",
-      },
-      {
-        sponsor: "Mitglieder des Lions Club Johannes Kepler",
-        text: "1 x Weiler Taler im Wert von 20,- €",
-        winner: "K1630",
-      },
-      {
-        sponsor: "Mitglieder des Lions Club Johannes Kepler",
-        text: "1 x Weiler Taler im Wert von 20,- €",
-        winner: "K1574",
-      },
-      {
-        sponsor: "Mitglieder des Lions Club Johannes Kepler",
-        text: "1 x Weiler Taler im Wert von 20,- €",
-        winner: "K0830",
-      },
-      {
-        sponsor: "Sanitätshaus Fünfer, Weil der Stadt",
-        text: "1 Einkaufsgutschein im Wert von 25,- €",
-        winner: "K2306",
-      }
     ],
   },
   {
@@ -65,40 +45,75 @@ const doors = [
     number: "2",
     prices: [
       {
-        sponsor: "SZ/BZ - Sindelfinger Zeitung/Böblinger Zeitung",
-        text: "1 Gutschein für ein Halbjahres-Abo für die SZ/BZ-Digital im Wert von 149,- €",
+        sponsor: "Kreissparkasse Böblingen",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0340",
+      },
+       {
+        sponsor: "Kreissparkasse Böblingen",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0340",
+      },
+       {
+        sponsor: "Kreissparkasse Böblingen",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0340",
+      },
+       {
+        sponsor: "Kreissparkasse Böblingen",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0340",
+      },
+       {
+        sponsor: "Kreissparkasse Böblingen",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0340",
+      },
+       {
+        sponsor: "Kreissparkasse Böblingen",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0340",
+      },
+       {
+        sponsor: "Kreissparkasse Böblingen",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0340",
+      },
+       {
+        sponsor: "Kreissparkasse Böblingen",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0340",
+      },
+       {
+        sponsor: "Kreissparkasse Böblingen",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0340",
+      },
+       {
+        sponsor: "Kreissparkasse Böblingen",
+        text: "1 x Weiler Taler im Wert von 20,- €",
+        winner: "K0340",
+      },
+       {
+        sponsor: "Kreissparkasse Böblingen",
+        text: "1 x Weiler Taler im Wert von 20,- €",
         winner: "K0340",
       },
       {
-        sponsor: "Bäckerei & Konditorei Raisch GmbH & Co. KG, Weil der Stadt",
-        text: "4 Gutscheine im Gesamtwert von 20,- €",
+        sponsor: "Sindelfinger Zeitung/Böblinger Zeitung",
+        text: "1 Gutschein für ein SZ/BZ-Digital-Abo für 6 Monate",
         winner: "K1585",
       },
       {
-        sponsor: "Mosterei Franz Decker, Weil der Stadt",
-        text: "1 Gutschein für 3 Pack Weil der Städter Apfelsaft (5 Liter Bag in Box)",
-        winner: "K1662",
+        sponsor: "Sindelfinger Zeitung/Böblinger Zeitung",
+        text: "1 Gutschein für ein SZ/BZ-Digital-Abo für 6 Monate",
+        winner: "K1585",
       },
-      {
-        sponsor: "Mosterei Franz Decker, Weil der Stadt",
-        text: "1 Gutschein für 3 Pack Weil der Städter Apfelsaft (5 Liter Bag in Box)",
-        winner: "K2184",
+         {
+        sponsor: "Parkrestaurant Stadthalle Sindelfingen",
+        text: "1 Gutschein für ein Essen für 2 Personen",
+        winner: "K1585",
       },
-      {
-        sponsor: "Mosterei Franz Decker, Weil der Stadt",
-        text: "1 Gutschein für 3 Pack Weil der Städter Apfelsaft (5 Liter Bag in Box)",
-        winner: "K0579",
-      },
-      {
-        sponsor: "Mosterei Franz Decker, Weil der Stadt",
-        text: "1 Gutschein für 3 Pack Weil der Städter Apfelsaft (5 Liter Bag in Box)",
-        winner: "K1183",
-      },
-      {
-        sponsor: "HÄDECKE VERLAG, Weil der Stadt",
-        text: "Buch „BAO & Dim Sum“ im Wert von 26,- €",
-        winner: "K2357",
-      }
     ],
   },
   {
